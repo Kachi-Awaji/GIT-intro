@@ -24,7 +24,7 @@ Our webpage will be a simple one containing a header, an image, and a short para
  <pre>
 </pre>
 ![Project Homepage](./screenshots/3-GitItHomepage.png)
-##### Git-It, and the files it contains...
+##### a screenshot of the final page...
 <pre>
 
 </pre>
