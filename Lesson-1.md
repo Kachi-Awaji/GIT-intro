@@ -65,7 +65,8 @@ On the next screen, you can select some components you want installed with GIT. 
 
 This dialog box lets you pick your preffered text editor. GIT is a command-line tool (more on that later), and works mostly by typing text or commands on screen. Click the drop-down to pick your text editor, or click Next to leave it as default.
 
-The next few dialog boxes contain features for advanced users. Click "Next" to go through them, until the installation begins.
+The next few dialog boxes contain features for advanced users. Click "Next" to go through them, until the installation begins. 
+
 ![Installation Finally](./screenshots/9-InstallationFinally.png)
 ##### Installation begins...
 <pre>
