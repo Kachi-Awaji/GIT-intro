@@ -47,14 +47,14 @@ Click **Next** to begin.
 <pre>
 </pre>
 
-The next dialog box lets you select a folder on your system where you would like to install GIT. You don't need to change anything here so click next to move forward.
+The next dialog box lets you select a folder on your system where you would like to install GIT. You don't need to change anything here so click **Next** to move forward.
 
 ![Select installation location](./screenshots/6-DestinationLocation.png)
 ##### Selecting installation location 
  <pre>
 
 </pre> 
-On the next screen, you can select some components you want installed with GIT. The selected options are fine, and don't need further tweaking, except for advanced users. Click **Next** to continue.
+On the next screen, you can select some components you want installed with GIT. The default options are fine and don't need further tweaking. Click **Next** to continue.
 ![Components Setup](./screenshots/7-ComponentsSetup.png)
 ##### Components Setup...
 <pre>
@@ -63,7 +63,7 @@ On the next screen, you can select some components you want installed with GIT. 
 ![Code Editor](./screenshots/8-CodeEditor.png)
 ##### Code Editor...
 
-This dialog box lets you pick the default text editor you want Git to work with. GIT is a command-line tool (more on that later), and works mostly by typing text or commands on screen. Click the drop-down to pick your preferred text editor, or click Next to leave it as default.
+This dialog box lets you pick your preffered text editor. GIT is a command-line tool (more on that later), and works mostly by typing text or commands on screen. Click the drop-down to pick your text editor, or click Next to leave it as default.
 
 The next few dialog boxes contain features for advanced users. Click "Next" to go through them, until the installation begins.
 ![Installation Finally](./screenshots/9-InstallationFinally.png)
