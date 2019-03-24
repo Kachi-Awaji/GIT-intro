@@ -1,9 +1,9 @@
 # PART 2: THE PROJECT BEGINS
 In this section, we will be working on a fictional web project called **Git-It**... get it? 
 
-Let's begin. On your system, create a folder in any location of your choice. I'd prefer you save it in your "Documents" folder for this tutorial. Name the folder "Git-It". This is the folder that will contain all the files for our project.
-<pre>
-</pre>
+Let's begin. On your system, create a folder in any location of your choice. I'd prefer you save it in your "Documents" folder for this tutorial. Name the folder "Git-It". This is the folder that will contain all the files for our project. 
+
+
 ![Downloading GIT from the official website](./screenshots/1-NewFolder.png)
 ##### Screenshot of my folder in Documents
 <pre>
