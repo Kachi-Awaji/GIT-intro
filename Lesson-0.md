@@ -12,7 +12,7 @@ GITHUB is an online, social website that runs on GIT - think GIT on steriods. Pr
 
 This tutorial will teach you the basics of GIT and GITHUB. At the end of this tutorial, you would learn how to work and collaborate with programmers worldwide.
 
-PREREQUISITES
+## PREREQUISITES
  - you should be comfortable using a computer and the Internet.
  - little knowledge of the command line is required. Don't worry if you have never heard of it - the tutorial also contains a guide to the command line.
  - basic knowledge of HTML and CSS.
