@@ -12,9 +12,9 @@ Let's begin. On your system, create a folder in any location of your choice. I'd
 Our folder will contain the following files
  - index.html (the homepage of our Git-It project).
  - main.css (a css file to style our homepage, make it look nice). 
- - git.png (an image file containing the git logo).
- <pre>
-</pre>
+ - git.png (an image file containing the git logo). 
+
+ 
 ![Folder Structure](./screenshots/2-FolderStructure.png)
 ##### Git-It, and the files it contains...
 <pre>
