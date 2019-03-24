@@ -15,6 +15,8 @@ Our folder will contain the following files:
  - git.png (an image file containing the git logo). 
  - index.html (the homepage of our Git-It project).
  - main.css (a css file to style our homepage, make it look nice). 
+ Create the html and css file in your folder. 
+ [Download Git Logo Here](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png "Download GIT logo")
 <pre>
 </pre>
 We will create a simple webpage, containing a header, an image, and a short paragraph. 
