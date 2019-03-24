@@ -20,13 +20,21 @@ Our folder will contain the following files
 <pre>
 
 </pre>
+Our webpage will be a simple one containing a header, an image, and a short paragraph.
+ <pre>
+</pre>
+![Project Homepage](./screenshots/3-GitItHomepage.png)
+##### Git-It, and the files it contains...
+<pre>
+
+</pre>
 In this scenario, our folder "Git-It" becomes our project folder. The project folder is where all the files will be working on will be stored. To implement version control in our project, let's download and install GIT.
 
 ## Installing GIT
 First, go to https://git-scm.com/downloads, and click on the download link on the right. 
  <pre>
 </pre>
-![Downloading GIT](./screenshots/3-GitItHomepage.png)
+![Downloading GIT](./screenshots/4-DownloadGit.png)
 ##### Downloading GIT...
 <pre>
 
