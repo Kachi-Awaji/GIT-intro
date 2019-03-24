@@ -25,7 +25,7 @@ We will create a simple webpage, containing a header, an image, and a short para
 <pre>
 
 </pre>
-In this scenario, our folder "Git-It" becomes our project folder. The project folder is where all the files will be working on will be stored. To implement version control in our project, let's download and install GIT.
+We have now set up our project folder - we are now ready to begin our project, adding little codes to the empty files that currently sit in the folder. To implement version control in our project, let's download and install GIT.
 
 ## Installing GIT
 First, go to https://git-scm.com/downloads, and click on the download link on the right. 
@@ -37,23 +37,17 @@ First, go to https://git-scm.com/downloads, and click on the download link on th
 
 </pre>
 
-Your download should start after you click the 'Download' button. After the download is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, in which you make some configuration settings before GIT is installed.
- <pre>
-</pre>
+The download should begin after you click the 'Download' button. After it is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, where you will make some settings before GIT is installed. 
+
 ![Installing Git](./screenshots/5-GitInstallation.png)
 ##### Installing GIT...
-<pre>
-
-</pre>
 Click "Next" to begin. 
-
- <pre>
-</pre>
-![Select installation location](./screenshots/6-DestinationLocation.png)
-##### Selecting installation location
 <pre>
-
 </pre>
+
+![Select installation location](./screenshots/6-DestinationLocation.png)
+##### Selecting installation location 
+
 This dialog box lets you select a folder on your system where you would like to install GIT. You don't need to change anything here so click next to move forward.
 
  <pre>
