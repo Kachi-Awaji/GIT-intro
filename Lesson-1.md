@@ -23,9 +23,14 @@ Our folder will contain the following files
 In this scenario, our folder "Git-It" becomes our project folder. The project folder is where all the files will be working on will be stored. To implement version control in our project, let's download and install GIT.
 
 ## Installing GIT
-First, go to https://git-scm.com/downloads, and click on the download link on the right. Be careful - make sure you download the proper version for your operating system. The download should be around 50MB.
+First, go to https://git-scm.com/downloads, and click on the download link on the right. 
+ <pre>
+</pre>
+![Downloading GIT](./screenshots/3-GitItHomepage.png)
+##### Downloading GIT...
+<pre>
 
-[download screenshot]
+</pre>
 
 Your download should start after you click the 'Download' button. After the download is done, double-click the file. This will start a series of dialog boxes, in which you configure your settings before GIT is installed.
 
