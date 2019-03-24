@@ -40,7 +40,7 @@ First, go to https://git-scm.com/downloads, and click on the download link on th
 
 The download should begin once you click the 'Download' button. After it is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, where you will make some settings before GIT is installed. 
 
-![Installing Git](./screenshots/5-GitInstallation.png) 
+![Installing Git](./screenshots/5-GITinstallation.png) 
 
 Click **Next** to begin. 
 
