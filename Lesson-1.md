@@ -1,7 +1,7 @@
 # PART 2: THE PROJECT BEGINS
-In this section, we will be working on a fictional web project called **Git-It**... get it? 
+In this section, we will be working on a fictional web project called **Git-It**... get it? Let's begin. 
 
-Let's begin. On your system, create a folder in any location of your choice. I'd prefer you save it in your "Documents" folder for this tutorial. Name the folder "Git-It". This is the folder that will contain all the files for our project. 
+On your system, create a folder in any location of your choice. I'd prefer you save it in your "Documents" folder for this tutorial. Name the folder "Git-It". This is the folder that will contain all the files for our project. 
 
 
 ![Downloading GIT from the official website](./screenshots/1-NewFolder.png)
@@ -12,9 +12,9 @@ Let's begin. On your system, create a folder in any location of your choice. I'd
 Our folder will contain the following files:
 
 ![Folder Structure](./screenshots/2-FolderStructure.png)
+ - git.png (an image file containing the git logo). 
  - index.html (the homepage of our Git-It project).
  - main.css (a css file to style our homepage, make it look nice). 
- - git.png (an image file containing the git logo). 
 <pre>
 
 </pre>
@@ -25,7 +25,7 @@ We will create a simple webpage, containing a header, an image, and a short para
 <pre>
 
 </pre>
-We have now set up our project folder - we are now ready to begin our project, adding little codes to the empty files that currently sit in the folder. To implement version control in our project, let's download and install GIT.
+And that's it, our project folder is set up - we can begin coding our project, adding lines of text to the empty files that currently sit in the folder. To implement version control in our project, let's download and install GIT.
 
 ## Installing GIT
 First, go to https://git-scm.com/downloads, and click on the download link on the right. 
@@ -37,7 +37,7 @@ First, go to https://git-scm.com/downloads, and click on the download link on th
 
 </pre>
 
-The download should begin after you click the 'Download' button. After it is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, where you will make some settings before GIT is installed. 
+The download should begin once you click the 'Download' button. After it is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, where you will make some settings before GIT is installed. 
 
 ![Installing Git](./screenshots/5-GitInstallation.png)
 ##### Installing GIT...
