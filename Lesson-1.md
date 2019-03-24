@@ -10,6 +10,7 @@ Let's begin. On your system, create a folder in any location of your choice. I'd
 
 </pre>
 Our folder will contain the following files:
+
 ![Folder Structure](./screenshots/2-FolderStructure.png)
 ##### Git-It...
  - index.html (the homepage of our Git-It project).
