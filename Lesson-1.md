@@ -5,21 +5,18 @@ Let's begin. On your system, create a folder in any location of your choice. I'd
 
 
 ![Downloading GIT from the official website](./screenshots/1-NewFolder.png)
-##### Screenshot of my folder in Documents
+##### Screenshot of my __Git-It__ folder in Documents
 <pre>
 
 </pre>
-Our folder will contain the following files
+Our folder will contain the following files:
+![Folder Structure](./screenshots/2-FolderStructure.png)
+##### Git-It...
  - index.html (the homepage of our Git-It project).
  - main.css (a css file to style our homepage, make it look nice). 
  - git.png (an image file containing the git logo). 
 
- 
-![Folder Structure](./screenshots/2-FolderStructure.png)
-##### Git-It, and the files it contains...
-<pre>
 
-</pre>
 Our webpage will be a simple one containing a header, an image, and a short paragraph.
  <pre>
 </pre>
