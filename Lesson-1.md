@@ -75,11 +75,10 @@ The next few dialog boxes contain features for advanced users. Click "Next" to g
 And that's it... well done!!! You have installed GIT on your system. High-five.
 
 ![Installation complete](./screenshots/10-InstallationComplete.png)
-##### Installation Complete...
-<pre>
+##### Installation Complete... 
 
-</pre>
+Click Finish to close the installation dialog box. Well done.
 
-Now select the "Launch GIT bash" option, and click Finish. 
+In the next class, we will talk about the command-line, and how it works with GIT. You will create your first GIT repository, and will be introduced to git commands.
 
-In the next class, we will talk about the command-line, and how it works with GIT. 
+
