@@ -16,7 +16,6 @@ Our folder will contain the following files:
  - index.html (the homepage of our Git-It project).
  - main.css (a css file to style our homepage, make it look nice). 
 <pre>
-
 </pre>
 We will create a simple webpage, containing a header, an image, and a short paragraph. 
  
@@ -39,33 +38,44 @@ First, go to https://git-scm.com/downloads, and click on the download link on th
 
 The download should begin once you click the 'Download' button. After it is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, where you will make some settings before GIT is installed. 
 
-![Installing Git](./screenshots/5-GitInstallation.png)
-##### Installing GIT...
-Click "Next" to begin. 
+![Installing Git](./screenshots/5-GitInstallation.png) 
+
+Click **Next** to begin. 
+
 <pre>
 </pre>
 
+The next dialog box lets you select a folder on your system where you would like to install GIT. You don't need to change anything here so click next to move forward.
+
 ![Select installation location](./screenshots/6-DestinationLocation.png)
 ##### Selecting installation location 
-
-This dialog box lets you select a folder on your system where you would like to install GIT. You don't need to change anything here so click next to move forward.
-
  <pre>
-</pre>
+
+</pre> 
+On the next screen, you can select some components you want installed with GIT. The selected options are fine, and don't need further tweaking, except for advanced users. Click **Next** to continue.
 ![Components Setup](./screenshots/7-ComponentsSetup.png)
 ##### Components Setup...
 <pre>
 
 </pre>
-On this screen, you can select some components you want installed with GIT. The selected options are fine, and don't need further tweaking, except for advanced users. Click 'Next' to continue.
+![Code Editor](./screenshots/8-CodeEditor.png)
+##### Code Editor...
 
 This dialog box lets you pick the default text editor you want Git to work with. GIT is a command-line tool (more on that later), and works mostly by typing text or commands on screen. Click the drop-down to pick your preferred text editor, or click Next to leave it as default.
 
-The remaining dialog boxes contain features for advanced users. Click "Next" to go through them, until the installation begins.
-[Screenshot 9]
+The next few dialog boxes contain features for advanced users. Click "Next" to go through them, until the installation begins.
+![Installation Finally](./screenshots/9-InstallationFinally.png)
+##### Installation begins...
+<pre>
 
+</pre>
 And that's it... well done!!! You have installed GIT on your system. High-five.
 
+![Installation complete](./screenshots/10-InstallationComplete.png)
+##### Installation Complete...
+<pre>
+
+</pre>
 
 Now select the "Launch GIT bash" option, and click Finish. 
 
