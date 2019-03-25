@@ -23,6 +23,25 @@ For this lesson, we will be working in our project directory. Open Git bash and 
 
 ![pwd in git bash](./screenshots/19-PWDGitBash.png)  
 
+## Configuring Git
+Be patient.. we will soon create our first repository. Before we do that, we should make some changes on our git configuration. Remember that GIT is meant for collaboration, right? How do programmers know which programmer has made changes to the project?
+
+IDENTITIES.
+
+Git comes along with a configuration tool that lets you set and update various information. Updating your identity is the first thing you should do after installing Git. This will be useful in the future, when you upload your repositories to GitHub.
+
+To add your name to Git config, type the following command
+`git config --global user.name "Your name" `
+Fill in your name - the quotes are important.
+
+To update your email, you type something similar
+`git config --global user.email "youremail@yourdomain.com"`
+
+To view your configuration settings, type
+`git config --list`
+This will display a list of all your git configuration.
+
+Now, let's create our repository.
 
 ## Creating a repository
 Git uses what we call "repositories" to store information about your project's changes. This "repository" is a special folder Git creates in your project folder, when Git is initialized.
