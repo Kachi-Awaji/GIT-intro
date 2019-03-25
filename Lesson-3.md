@@ -11,12 +11,15 @@ For this lesson, we will be working in our project directory. Open Git bash and 
     You can also start Git Bash using the Windows Explorer. 
 * In Windows explorer, open your project folder  
 ![The Project Folder](./screenshots/17-ProjectFolder.png)  
-*starting Git Bash...*
-    * Right Click, and select "Git Bash here" to start Git Bash. This forces Git bash to open using this folder as your working directory.
-        [select Git bash screenshot]
-    * You can confirm using pwd
-        [pwd current screenshot]  
-        Useful tip to remember.
+*viewing the project folder in Windows Explorer...*  
+
+* Right Click, and select "Git Bash here" to start Git Bash. This forces Git bash to open using this folder as your working directory.  
+![Launching Git Bash through windows explorer](./screenshots/18-GitBashHere.png)  
+*Starting Git bash through windows explorer...*  
+
+* When Git Bash starts, confirm your working directory is the project directory by using the command *pwd*
+![pwd in git bash](./screenshots/19-PWDGitBash.png)  
+
 
 ## Creating a repository
 Git uses what we call "repositories" to store information about your project's changes. This "repository" is a special folder Git creates in your project folder, when Git is initialized.
