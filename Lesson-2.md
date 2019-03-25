@@ -26,7 +26,6 @@ You can also type 'git bash' in the Start menu, and click to start the program.
 </pre>
 
 If you see the screen below, we good...  
-
 ![GitBash](./screenshots/12-GitBashPrompt.png)  
 <pre>
 </pre>
