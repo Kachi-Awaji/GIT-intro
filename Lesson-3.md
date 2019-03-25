@@ -13,7 +13,9 @@ For this lesson, we will be working in our project directory. Open Git bash and 
 ![The Project Folder](./screenshots/17-ProjectFolder.png)  
 *viewing the project folder in Windows Explorer...*  
 
-* Right Click, and select "Git Bash here" to start Git Bash. This forces Git bash to open using this folder as your working directory.  
+
+* Right Click, and select "Git Bash here" to start Git Bash. This forces Git bash to use this folder as your working directory when it launches.  
+
 ![Launching Git Bash through windows explorer](./screenshots/18-GitBashHere.png)  
 *Starting Git bash through windows explorer...*  
 
