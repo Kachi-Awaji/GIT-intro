@@ -60,6 +60,12 @@ On the second line, we have a single character.
 
 ` $ `
 
+This is called a prompt. It's where you enter/type the commands into the shell.
+
+Enough long story, let's learn a few shell commands.
+
+## Basic Shell Commands
+
 To understand the command line and start using it work with GIT, you should be comfortable with the following concepts...
  - A Terminal  
  This is a program in which you run other programs by typing text on the screen. The command prompt is a popular one on Windows. For this tutorial, we will be using another called Git-bash. You don't have to install git-bash - it was installed on your system when you installed GIT.
