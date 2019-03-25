@@ -64,6 +64,8 @@ This is called a prompt. It's where you enter/type the commands into the shell.
 
 Enough long story, let's learn a few shell commands.
 
+
+
 ## Basic Shell Commands
 
 ### Knowing where you are
@@ -77,10 +79,73 @@ To view your working directory, type *pwd* at the prompt and press **Enter**.
 <pre>
 </pre>
 
+When you press **Enter**, the command runs and prints a result on the next line. In my case, the shell printed
+
+` /c/Users/awaji `
+
+A simple interpretation of this result is that it shows my current location on the disk. The files on your hard disk are not scattered randomly; rather they are organized in various categories using folders or directories.
+
+The output of the 'pwd' program says (reading from right to left) I'm in a folder called 'awaji', which is in a folder called 'Users', which is stored on my hard disk, the C drive.
+
+This means any program or command I run will use this location as a sort of reference. Let's learn a few more commands to throw some light on this.
+
+## The LS command
+The LS command (or list) shows the content of the current working directory. Enter **ls** at the command prompt to try it.
+
+![GitBash](./screenshots/14-List.png)  
+<pre>
+</pre>
+
+The ls command lists all the files and folders in our working directory. In my screenshot, it displays the contents of the 'awaji' folder. 
+
+What if we would like to change our working directory, sort of move around or navigate through the folders on our disk?
+
+Well, there is a command for that too. It's called 'cd'
+
+## The CD command
+This command is also known as the 'change directory' command. You use it to navigate through your filesystem (hard disk). Let's try it.
+
+In our last example, we ran the LS command. To navigate to the "documents' folder, type
+
+` cd Documents `
+
+[screenshot cd documents]
+
+Type **ls** to view the contents of documents. Our Git-It folder should be displayed in the result.
+
+[Git it display]
+
+Exercise:
+    Using what you have learnt, can you navigate to the Git-It folder?
+    Confirm you are in the Git-It folder by running the *pwd* command.
+
+Other info:
+    To go to a parent folder, use the 'cd ..' command. The ".." refers to parent folder.
+
+We now know enough about the command line to begin working with GIT. In the next lesson, we will initialize our GIT repo and begin to build our homepage.
+
+<!-- 
+
+## The CD Command (move to documents)
+
+## the mkdir command (make directory)
+
+## a brief on filepath
+
+## further study on the command line
+
+## Initializing our GIT repository
+
+## the git init command
+
+## working directory, repo, and index/staging area
+## the git add command
+
+## the git commit
     seeing others (ls) (command line and modifiers)
     looking around
     moving out
     moving up
     moving down
 
-
+ -->
