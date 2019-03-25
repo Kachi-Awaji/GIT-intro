@@ -9,8 +9,9 @@ For this lesson, we will be working in our project directory. Open Git bash and 
 
 >
     You can also start Git Bash using the Windows Explorer. 
-    * In Windows explorer, open your project folder
-        [project folder windows explorer]
+* In Windows explorer, open your project folder  
+![The Project Folder](./screenshots/17-ProjectFolder.png)  
+*starting Git Bash...*
     * Right Click, and select "Git Bash here" to start Git Bash. This forces Git bash to open using this folder as your working directory.
         [select Git bash screenshot]
     * You can confirm using pwd
