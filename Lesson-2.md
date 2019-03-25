@@ -112,10 +112,10 @@ Type ` cd Documents ` to navigate to the _Documents_ folder.
 </pre>
 Type **ls** to view the contents of _Documents_. See if you can find the Git-It folder in the list. 
 
-> __Exercise__:
-   >    
-   Using what you have learnt, can you navigate to the Git-It folder?
-     Confirm you are in the Git-It folder by running the *pwd* command.
+> __Exercise__:  
+
+   Using what you have learnt, can you navigate to the Git-It folder? 
+   Confirm you are in the Git-It folder by running the *pwd* command.
 
 > __Other info__:  
 
