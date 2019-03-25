@@ -1,4 +1,4 @@
-# Part 3: Git-Bash and the Command Line
+# Part 3: Git Bash and the Command Line
 
 In our last lesson, we created a folder for our project files and installed **Git**. We also talked about the importance of version control and collaboration when building large projects.
 
@@ -13,7 +13,7 @@ Needless to say, most programs and software written today have a graphical inter
 
 Programs designed to run in a terminal are called command-line programs. They have no icons or buttons. You interact with these programs using commands. Git is a command-line program, although some programs now offer GUI interfaces for performing **Git** functions. This tutorial won't be teaching you how to use those - learning the command line will require a more intensive effort, but is ultimately more rewarding.
 
-## Opening the Git-Bash Terminal
+## Opening the Git Bash Terminal
 To start Git Bash, perform the following actions  
  - Click the Windows or Start icon
  - In the Programs list, open the **Git** folder
@@ -124,7 +124,6 @@ We now know enough about the command line to begin working with GIT. In the next
 
 <!-- 
 
-## The CD Command (move to documents)
 
 ## the mkdir command (make directory)
 
