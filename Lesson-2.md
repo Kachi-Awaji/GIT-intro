@@ -25,7 +25,7 @@ You can also type 'git bash' in the Start menu, and click to start the program.
 <pre>
 </pre>
 
-If you see the screen below, we good...  you've successfully launced the Git Bash Terminal
+If you see the screen below, we good...  you've successfully launched the Git Bash Terminal
 
 ![GitBash](./screenshots/12-GitBashPrompt.png)  
 <pre>
@@ -42,8 +42,7 @@ The Git Bash shell is a special terminal designed to work with Windows. Below is
 
  
 ![GitBash](./screenshots/12-GitBashPrompt.png)  
-<pre>
-</pre>
+
 On the first line, you have  
 
 `awaji@harmattanhunter MINIGW64 `
@@ -67,7 +66,7 @@ This is called a prompt. It's where you will enter/type commands into the shell.
 ## Basic Shell Commands
 
 ### The PWD Command
-The first command you will learn is **pwd**. **pwd** is short for *print working directory*. The "working directory" is the folder the shell is currently residing it.
+The first command you will learn is **pwd**. **pwd** is short for *print working directory*. The "working directory" is the folder the shell is currently residing it. This command displays the current working directory.
 
 When you start a shell, the program takes a folder on your hard disk, and makes it its working directory. It's similar to the 'project folder' in **Git**, a point where all work takes place. 
 
@@ -79,7 +78,13 @@ When you press **Enter**, the command runs and prints a result on the next line.
 
 ` /c/Users/awaji `
 
-A simple interpretation of this result is that it shows my current location on the disk. The files on your hard disk are not scattered randomly; rather they are organized in various categories using folders or directories.
+The output of this command might look confusing, but it's really easy to understand. 
+
+When you save files on your hard disk, they are not stored randomly. Rather, they are are organized in various categories using folders(directories).
+
+Think of a folder as a container for a group of related files. The Windows OS creates a few folders by default for organization (Documents, Music, Pictures, Scans). Windows also creates a folder on the hard disk for each user. These folders and files all reside on the hard disk.
+
+Using this information, let's interprete the output of the *pwd* command.
 
 The output of the 'pwd' program says (reading from right to left) I'm in a folder called 'awaji', which is in a folder called 'Users', which is stored on my hard disk, the C drive.
 
