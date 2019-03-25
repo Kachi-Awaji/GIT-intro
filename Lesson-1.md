@@ -74,7 +74,7 @@ The next few dialog boxes contain features for advanced users. Click "Next" to g
 </pre>
 And that's it... well done!!! You have installed GIT on your system. High-five.
 
-![Installation complete](./screenshots/10-InstallationComplete.png)
+![Installation complete](./screenshots/10-InstallationComplete.png)  
 *Installation Complete* 
 
 Click __Finish__ to close the installation dialog box. Well done.
