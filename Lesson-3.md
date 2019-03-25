@@ -5,14 +5,16 @@ Last lesson, we learnt how to use Git Bash. We also leaernt a few commands to na
 ## Version Control With Git
 To begin watching our project folder with GIT, we need to initialize what's called a **Git** repository. We will create one first, then talk about what it is and what it is for. You may find this lesson slow-paced compared to others. The topics covered in this lesson are very important to solidfying your understanding of basic GIT concepts.
 
-> I define a software as a way of thinking, a way of doing a particular task. Understanding how **Git** thinks is very important.
+> I define a software as a way of thinking, a way of doing a particular task. Understanding how **Git** thinks is very important if you want to use it properly and efficiently.
 
 ## Creating a repository
 Open Git Bash, and navigate to your project folder. You should have something similar to the screenshot. Enter *ls* to view the contents of the directory. It should display 
-- one image file (the Git logo)
+- an image file (the Git logo)
 - index.html file (Gitting-It homepage)
-- main.css (stylesheet)
-[git bash ls contents project folder]
+- main.css (stylesheet)  
+
+[git bash ls contents project folder]  
+
 
 To start monitoring this folder with GIT, run the command
 
