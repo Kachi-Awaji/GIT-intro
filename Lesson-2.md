@@ -74,8 +74,6 @@ When you start a shell, the program takes a folder on your hard disk, and makes 
 To view your working directory, type *pwd* at the prompt and press **Enter**.  
 
 ![The Pwd command](./screenshots/13-PWD.png)  
-<pre>
-</pre>
 
 When you press **Enter**, the command runs and prints a result on the next line. In my case, the shell printed
 
@@ -91,8 +89,6 @@ This means any program or command I run will use this location as a sort of refe
 The LS command (or list) shows the content of the current working directory. Enter **ls** at the command prompt to try it.
 
 ![GitBash](./screenshots/14-List.png)  
-<pre>
-</pre>
 
 The ls command lists all the files and folders in our working directory. In my screenshot, it displays the contents of the 'awaji' folder. 
 
