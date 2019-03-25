@@ -44,10 +44,21 @@ The Git Bash shell is a special terminal designed to work with Windows. Below is
 ![GitBash](./screenshots/12-GitBashPrompt.png)  
 <pre>
 </pre>
-On the first line, you have 
+On the first line, you have  
+
 `awaji@harmattanhunter MINIGW64 `
 
+This would probably be different on your system. The first part (before the @) is the my username on my PC. The part after the @ is the name of my computer. It's not important you know what MINIGW64 means, so we can ignore that.
 
+So, the first line follows this format  
+
+`user@computerName MINIGW64`
+
+Hopefully, yours follows this format.
+
+On the second line, we have a single character.  
+
+` $ `
 
 To understand the command line and start using it work with GIT, you should be comfortable with the following concepts...
  - A Terminal  
