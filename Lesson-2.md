@@ -17,17 +17,20 @@ Programs designed to run in a terminal are called command-line programs. You int
 To start Git-Bash, perform the following actions  
  - Click the Windows or Start icon
  - In the Programs list, open the Git folder
- - Click the option for Git Bash.
+ - Click the option for Git Bash.  
+You can also type 'git bash' in the Start menu, and click to start the program.  
 
- You can also type 'git bash' in the Start menu, and click to start the program.  
- ![Using GitBash](./screenshots/11-GitBash.png)
+![Using GitBash](./screenshots/11-GitBash.png)  
 *Installation begins...*
 <pre>
+</pre>
 
-</pre> 
- [Gitbash windows screenshot]
+If you see the screen below, we good...  
 
- Your screen should look like this
+![GitBash](./screenshots/12-GitBashPrompt.png)  
+<pre>
+</pre>
+
  
 
 
