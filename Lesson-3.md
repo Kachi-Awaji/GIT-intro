@@ -1,6 +1,6 @@
 # Part 4: Repositories and Version Control
 
-Last lesson, we learnt how to use Git Bash. We also leaernt a few commands to navigate, view, and list the contents of our directories. In this lesson, we will create our first Git repo, and begin working on our project files.
+Last lesson, we learnt how to use Git Bash. We also learnt a few commands to navigate, view, and list the contents of our directories. In this lesson, we will create our first Git repo, and begin working on our project files.
 
 > I define a software as a way of thinking, a way of doing a particular task. Understanding how **Git** thinks is very important if you want to use it properly and efficiently.
 
