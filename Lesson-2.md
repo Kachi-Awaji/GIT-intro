@@ -98,26 +98,25 @@ The ls command lists all the files and folders in our working directory. In my s
 
 What if we would like to change our working directory, sort of move around or navigate through the folders on our disk?
 
-Well, there is a command for that too. It's called 'cd'
+Well, there is a command for that too.  
 
 ## The CD command
 This command is also known as the 'change directory' command. You use it to navigate through your filesystem (hard disk). Let's try it.
 
-In our last example, we ran the LS command. To navigate to the "documents' folder, type
+In our last example, we ran the LS command and it printed a list of all the files and folders in our working directory. 
+ 
+Type ` cd Documents ` to navigate to the _Documents_ folder. 
 
-` cd Documents `
+![GitBash](./screenshots/15-Cd.png)  
+<pre>
+</pre>
+Type **ls** to view the contents of _Documents_. See if you can find the Git-It folder in the list. 
 
-[screenshot cd documents]
+> __Exercise__:
+   >  Using what you have learnt, can you navigate to the Git-It folder?
+     Confirm you are in the Git-It folder by running the *pwd* command.
 
-Type **ls** to view the contents of documents. Our Git-It folder should be displayed in the result.
-
-[Git it display]
-
-Exercise:
-    Using what you have learnt, can you navigate to the Git-It folder?
-    Confirm you are in the Git-It folder by running the *pwd* command.
-
-Other info:
+> __Other info__:
     To go to a parent folder, use the 'cd ..' command. The ".." refers to parent folder.
 
 We now know enough about the command line to begin working with GIT. In the next lesson, we will initialize our GIT repo and begin to build our homepage.
