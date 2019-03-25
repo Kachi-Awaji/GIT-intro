@@ -32,15 +32,19 @@ Git comes along with a configuration tool that lets you set and update various i
 
 To add your name to Git config, type the following command  
 `git config --global user.name "Your name" `  
-Fill in your name - the quotes are important.
 
 To update your email, you type something similar  
 `git config --global user.email "youremail@yourdomain.com"`  
 
+![pwd in git bash](./screenshots/20-configGit.png)  
 
-To view your configuration settings, type  
-`git config --list`  
-This will display a list of all your git configuration.
+
+To view your configuration setting, type  
+`git config user.name`  or `git config user.email`
+
+This will display the current name or email. 
+
+![pwd in git bash](./screenshots/21-ConfigGit.png)  
 
 Now, let's create our repository.
 
