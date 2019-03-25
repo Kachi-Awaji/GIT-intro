@@ -8,3 +8,15 @@ I struggled a lot trying to understand GIT, GITHUB, and the whole idea of versio
 I appreciate feedback and comments. Feel free to fork, and modify in your own way.
 
 Goodluck.
+
+### TABLE OF CONTENTS
+ Lesson 0 - Introduction to Git and Github [x]
+ Lesson 1 - The Project Begins [x]
+ Lesson 2 - Git Bash and the Command Line [x]
+ Lesson 3 - Repositories and Version Control [coming soon]
+ Lesson 4 - Coming soon [ ]
+ Lesson 5 - Coming soon [ ]
+ Lesson 6 - Coming soon [ ]
+ Lesson 7 - Coming soon [ ]
+ Lesson 8 - Coming soon [ ]
+ Lesson 9 - Coming soon [ ]
