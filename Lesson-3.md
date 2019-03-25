@@ -19,7 +19,8 @@ For this lesson, we will be working in our project directory. Open Git bash and 
 ![Launching Git Bash through windows explorer](./screenshots/18-GitBashHere.png)  
 *Starting Git bash through windows explorer...*  
 
-* When Git Bash starts, confirm your working directory is the project directory by using the command *pwd*
+* When Git Bash starts, confirm your working directory is the project directory by using the command *pwd*  
+
 ![pwd in git bash](./screenshots/19-PWDGitBash.png)  
 
 
