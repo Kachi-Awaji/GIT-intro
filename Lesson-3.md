@@ -2,11 +2,31 @@
 
 Last lesson, we learnt how to use Git Bash. We also leaernt a few commands to navigate, view, and list the contents of our directories. In this lesson, we will create our first Git repo, and begin working on our project files.
 
-## Version Control With Git
-To begin watching our project folder with GIT, we need to initialize what's called a **Git** repository. We will create one first, then talk about what it is and what it is for. You may find this lesson slow-paced compared to others. The topics covered in this lesson are very important to solidfying your understanding of basic GIT concepts.
-
 > I define a software as a way of thinking, a way of doing a particular task. Understanding how **Git** thinks is very important if you want to use it properly and efficiently.
 
+## Version Control With Git
+For this lesson, we will be working in our project directory. Open Git bash and navigate to your project folder to begin.
+
+>
+    You can also start Git Bash using the Windows Explorer. 
+    * In Windows explorer, open your project folder
+        [project folder windows explorer]
+    * Right Click, and select "Git Bash here" to start Git Bash. This forces Git bash to open using this folder as your working directory.
+        [select Git bash screenshot]
+    * You can confirm using pwd
+        [pwd current screenshot]  
+        Useful tip to remember.
+
+## Creating a repository
+Git uses what we call "repositories" to store information about your project's changes. This "repository" is a special folder Git creates in your project folder, when Git is initialized.
+
+To start Git, type `git init` in the terminal.  
+
+[screenshot of git init with result]
+
+Go through the output message. Type ls. Can you notice any change. Options in command line argument. ls -a. .git indicates it is a hidden folder. (all this should go in here)
+
+You now have a git repo ( a folder where changes to your project are stored)
 ## Creating a repository
 Open Git Bash, and navigate to your project folder. You should have something similar to the screenshot. Enter *ls* to view the contents of the directory. It should display 
 - an image file (the Git logo)
