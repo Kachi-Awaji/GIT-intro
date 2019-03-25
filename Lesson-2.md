@@ -21,18 +21,32 @@ To start Git-Bash, perform the following actions
 You can also type 'git bash' in the Start menu, and click to start the program.  
 
 ![Using GitBash](./screenshots/11-GitBash.png)  
-*Installation begins...*
+*starting Git Bash...*
 <pre>
 </pre>
 
-If you see the screen below, we good...  
+If you see the screen below, we good...  you've successfully launced the Git Bash Terminal
+
 ![GitBash](./screenshots/12-GitBashPrompt.png)  
 <pre>
 </pre>
 
+
 ## Working With The Terminal
+A terminal (also called a shell) is a program that lets you work with command-line programs. Think of it as a mediator, or house boy, waiting for you to give a command to execute.
+
+The Git Bash shell is a special terminal designed to work with Windows. Below is a short tutorial to get you started using it.
+
+### Where are we?
+ If you have Git Bash opened, you should see a dark, blank screen with a few characters at the top.  
 
  
+![GitBash](./screenshots/12-GitBashPrompt.png)  
+<pre>
+</pre>
+On the first line, you have 
+`awaji@harmattanhunter MINIGW64 `
+
 
 
 To understand the command line and start using it work with GIT, you should be comfortable with the following concepts...
