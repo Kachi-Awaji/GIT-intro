@@ -37,7 +37,7 @@ A terminal (also called a shell) is a program that lets you work with command-li
 
 The Git Bash shell is a special terminal designed to work with Windows. Below is a short tutorial to get you started using it.
 
-### Where are we?
+### Finding your way around the terminal
  If you have Git Bash opened, you should see a dark, blank screen with a few characters at the top.  
 
  
@@ -48,28 +48,26 @@ On the first line, you have
 
 `awaji@harmattanhunter MINIGW64 `
 
-This would probably be different on your system. The first part (before the @) is the my username on my PC. The part after the @ is the name of my computer. It's not important you know what MINIGW64 means, so we can ignore that.
+This would be different on your system. The first part (before the @) is my username on my PC. The part after the @ is the name of my computer. It's not important you know what MINIGW64 means, so we can ignore that.
 
 So, the first line follows this format  
 
 `user@computerName MINIGW64`
 
-Hopefully, yours follows this format.
+Hopefully, yours follows this format too. Let's move on.
 
 On the second line, we have a single character.  
 
 ` $ `
 
-This is called a prompt. It's where you enter/type the commands into the shell.
-
-Enough long story, let's learn a few shell commands.
+This is called a prompt. It's where you enter/type commands into the shell. We are now ready to learn a few shell commands.
 
 
 
 ## Basic Shell Commands
 
-### Knowing where you are
-The first command we will be introduced to is **pwd**. **pwd** is short for *print working directory*. The "working directory" is the folder the shell is currently residing it.
+### The PWD Command
+The first command you will learn is **pwd**. **pwd** is short for *print working directory*. The "working directory" is the folder the shell is currently residing it.
 
 When you start a shell, the program takes a folder on your hard disk, and makes it its working directory. It's similar to the 'project folder' in GIT, a point where all work takes place. 
 
