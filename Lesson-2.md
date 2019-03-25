@@ -73,7 +73,7 @@ When you start a shell, the program takes a folder on your hard disk, and makes 
 
 To view your working directory, type *pwd* at the prompt and press **Enter**.  
 
-![GitBash](./screenshots/13-PWD.png)  
+![The Pwd command](./screenshots/13-PWD.png)  
 <pre>
 </pre>
 
