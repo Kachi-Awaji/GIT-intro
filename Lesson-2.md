@@ -9,9 +9,9 @@ Modern operating systems have what we call a Graphical User Interface (GUI)... n
 
 Years back (more like decades), computer programs weren't that fanciful. Running computer programs was mostly a text-based activity - you had to type a bunch of commands into a program called a shell/terminal/command line. This required a lot of memorization, and people who learnt these programs were considered 'professionals'. Graphical User Interface made computers more user-friendly, much easier to use.
 
-Needless to say, most programs and software written today have a graphical interface. You can use these programs by clicking on icons and buttons, and they usually come with menus and windows for doing stuff. Microsoft Word, Photoshop and the Chrome browser are good examples.
+Needless to say, most programs and software written today have a graphical interface. You use these programs by clicking on icons and buttons, and they usually come with menus and windows for writing documents, editing photos, or drawing illustrations. Microsoft Word, Photoshop and the Chrome browser are good examples.
 
-Programs designed to run in a terminal are called command-line programs. You interact with these programs using commands. Git is a command-line program, although some programs now offer GUI interfaces for performing **Git** functions. This tutorial won't be teaching you how to use those - learning the command line will require a more intensive effort, but is ultimately more rewarding.
+Programs designed to run in a terminal are called command-line programs. They have no icons or buttons. You interact with these programs using commands. Git is a command-line program, although some programs now offer GUI interfaces for performing **Git** functions. This tutorial won't be teaching you how to use those - learning the command line will require a more intensive effort, but is ultimately more rewarding.
 
 ## Opening the Git-Bash Terminal
 To start Git Bash, perform the following actions  
@@ -33,7 +33,7 @@ If you see the screen below, we good...  you've successfully launced the Git Bas
 
 
 ## Working With The Terminal
-A terminal (also called a shell) is a program that lets you work with command-line programs. Think of it as a mediator, or house boy, waiting for you to give a command to execute.
+A terminal (also called a shell) is a program that lets you work with command-line programs. Think of it as a robot waiting for you to give it a command to execute. You give it programs to execute by typing in commands.
 
 The Git Bash shell is a special terminal designed to work with Windows. Below is a short tutorial to get you started using it.
 
@@ -60,7 +60,7 @@ On the second line, we have a single character.
 
 ` $ `
 
-This is called a prompt. It's where you enter/type commands into the shell. We are now ready to learn a few shell commands.
+This is called a prompt. It's where you will enter/type commands into the shell. We are now ready to learn a few shell commands.
 
 
 
@@ -113,10 +113,12 @@ Type ` cd Documents ` to navigate to the _Documents_ folder.
 Type **ls** to view the contents of _Documents_. See if you can find the Git-It folder in the list. 
 
 > __Exercise__:
-   >  Using what you have learnt, can you navigate to the Git-It folder?
+   >    
+   Using what you have learnt, can you navigate to the Git-It folder?
      Confirm you are in the Git-It folder by running the *pwd* command.
 
-> __Other info__:
+> __Other info__:  
+
     To go to a parent folder, use the 'cd ..' command. The ".." refers to parent folder.
 
 We now know enough about the command line to begin working with GIT. In the next lesson, we will initialize our GIT repo and begin to build our homepage.
