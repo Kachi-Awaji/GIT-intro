@@ -66,15 +66,17 @@ Enough long story, let's learn a few shell commands.
 
 ## Basic Shell Commands
 
-To understand the command line and start using it work with GIT, you should be comfortable with the following concepts...
- - A Terminal  
- This is a program in which you run other programs by typing text on the screen. The command prompt is a popular one on Windows. For this tutorial, we will be using another called Git-bash. You don't have to install git-bash - it was installed on your system when you installed GIT.
+### Knowing where you are
+The first command we will be introduced to is **pwd**. **pwd** is short for *print working directory*. The "working directory" is the folder the shell is currently residing it.
 
- We'll be using Git-bash as our terminal for this series. To start git-bash, do the following 
- [steps to start git-bash]
+When you start a shell, the program takes a folder on your hard disk, and makes it its working directory. It's similar to the 'project folder' in GIT, a point where all work takes place. 
 
-- Command-line programs[]
-    knowing where you are (pwd)
+To view your working directory, type *pwd* at the prompt and press **Enter**.  
+
+![GitBash](./screenshots/13-PWD.png)  
+<pre>
+</pre>
+
     seeing others (ls) (command line and modifiers)
     looking around
     moving out
