@@ -108,8 +108,7 @@ In our last example, we ran the LS command and it printed a list of all the file
 Type ` cd Documents ` to navigate to the _Documents_ folder. 
 
 ![GitBash](./screenshots/15-Cd.png)  
-<pre>
-</pre>
+
 Type **ls** to view the contents of _Documents_. See if you can find the Git-It folder in the list. 
 > __Exercise__:  
 
