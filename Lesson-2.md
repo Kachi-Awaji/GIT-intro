@@ -43,7 +43,7 @@ The Git Bash shell is a special terminal designed to work with Windows. Below is
  
 ![GitBash](./screenshots/12-GitBashPrompt.png)  
 
-On the first line, you have  
+On the first line, there is some text written.
 
 `awaji@harmattanhunter MINIGW64 `
 
@@ -60,7 +60,6 @@ On the second line, we have a single character.
 ` $ `
 
 This is called a prompt. It's where you will enter/type commands into the shell. We are now ready to learn a few shell commands.
-
 
 
 ## Basic Shell Commands

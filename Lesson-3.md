@@ -49,9 +49,33 @@ This will display the current name or email.
 Now, let's create our repository.
 
 ## Creating a repository
-Git uses what we call "repositories" to store information about your project's changes. This "repository" is a special folder Git creates in your project folder, when Git is initialized.
+Git uses what we call "repositories" to store information about your project's changes. This "repository" is a special folder Git creates in your project folder, when Git is initialized. Repositories are sometimes called 'repos'.
 
-To start Git, type `git init` in the terminal.  
+To create a git repository, in the terminal, type 
+
+`git init`
+
+![pwd in git bash](./screenshots/22-GitInitialize.png)  
+
+The terminal prints a message saying that a git repository has been initialized in your project folder.
+
+To see the git repo, type
+
+` ls `
+
+![pwd in git bash](./screenshots/23-LsAfterGit.png)  
+
+Wait... that didn't show anything. Where is the git repo?
+
+### Command line arguments
+
+Some of the commands you use in the command line will let you add options. Options are like special effects on commands; they make them do something special.
+
+The regular 'ls' command only lists files that are not hidden. Windows allows you to hide files, so they do not show up by default. To view hidden file, you will type ls with an option '-a'. This will allow ls list all files in a folder, hidden files inclusive. 
+
+![pwd in git bash](./screenshots/24-LsWithAoptio.png)  
+
+
 
 [screenshot of git init with result]
 
