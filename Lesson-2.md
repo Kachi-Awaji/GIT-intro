@@ -1,15 +1,13 @@
 # Part 3: Git-Bash and the Command Line
 
-In our last lesson, we created a folder for our project files, and installed GIT. 
+In our last lesson, we created a folder for our project files, and installed GIT. We also talked about the importance of version control and collaboration when building large projects.
 
-This section is an introduction to the command line (terminal, prompt, CLI). At the end of this section, you will be comfortable using Git-bash, a command line program for working with Git on Windows.
+This section is an introduction to the command line (also known as the terminal). At the end of this section, you will will be comfortable using Git Bash, a special terminal for working with Git on Windows.
 
 ## What's the Command Line?
-Modern operating systems have what we call a Graphical User Interface... nice pretty icons and fonts that convey meaning and can respond when we 'click' or 'tap' on them.
+Modern operating systems have what we call a Graphical User Interface (GUI)... nice pretty icons and fonts that convey meaning and can respond when we 'click' or 'tap' on them. 
 
-Years back (more like decades), computer programs weren't that fanciful. Running computer programs was mostly a text-based activity - you had to type a bunch of commands into a program called a shell or terminal. This required a lot of memorization and hardwork, and people who learnt these programs were considered 'professionals'. GUI interfaces made computers more user-friendly, and less complicated to use.
-
-[screenshot of gui vs cui]
+Years back (more like decades), computer programs weren't that fanciful. Running computer programs was mostly a text-based activity - you had to type a bunch of commands into a program called a shell/terminal/command line. This required a lot of memorization, and people who learnt these programs were considered 'professionals'. Graphical User Interface made computers more user-friendly, much easier to use.
 
 Needless to say, most programs and software written today have a graphical interface. You can use these programs by clicking on icons and buttons, and they usually come with menus and windows for doing stuff. Microsoft Word, Photoshop and the Chrome browser are good examples.
 
@@ -21,7 +19,12 @@ To start Git-Bash, perform the following actions
  - In the Programs list, open the Git folder
  - Click the option for Git Bash.
 
- You can also type 'git bash' in the Start menu, and click to start the program. 
+ You can also type 'git bash' in the Start menu, and click to start the program.  
+ ![Using GitBash](./screenshots/11-GitBash.png)
+*Installation begins...*
+<pre>
+
+</pre> 
  [Gitbash windows screenshot]
 
  Your screen should look like this
