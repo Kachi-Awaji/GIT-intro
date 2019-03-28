@@ -10,18 +10,18 @@ For this lesson, we will be working in our project directory. Open Git bash and 
 >
     You can also start Git Bash using the Windows Explorer. 
 * In Windows explorer, open your project folder  
-![The Project Folder](./screenshots/17-ProjectFolder.png)  
+![The Project Folder](./images/17-ProjectFolder.png)  
 *viewing the project folder in Windows Explorer...*  
 
 
 * Right Click, and select "Git Bash here" to start Git Bash. This forces Git bash to use this folder as your working directory when it launches.  
 
-![Launching Git Bash through windows explorer](./screenshots/18-GitBashHere.png)  
+![Launching Git Bash through windows explorer](./images/18-GitBashHere.png)  
 *Starting Git bash through windows explorer...*  
 
 * When Git Bash starts, confirm your working directory is the project directory by using the command *pwd*  
 
-![pwd in git bash](./screenshots/19-PWDGitBash.png)  
+![pwd in git bash](./images/19-PWDGitBash.png)  
 
 ## Configuring Git
 Be patient.. we will soon create our first repository. Before we do that, we should make some changes on our git configuration. Remember that GIT is meant for collaboration, right? How do programmers know which programmer has made changes to the project?
@@ -36,7 +36,7 @@ To add your name to Git config, type the following command
 To update your email, you type something similar  
 `git config --global user.email "youremail@yourdomain.com"`  
 
-![pwd in git bash](./screenshots/20-configGit.png)  
+![pwd in git bash](./images/20-configGit.png)  
 
 
 To view your configuration setting, type  
@@ -44,7 +44,7 @@ To view your configuration setting, type
 
 This will display the current name or email. 
 
-![pwd in git bash](./screenshots/21-ConfigGit.png)  
+![pwd in git bash](./images/21-ConfigGit.png)  
 
 Now, let's create our repository.
 
@@ -55,7 +55,7 @@ To create a git repository, in the terminal, type
 
 `git init`
 
-![pwd in git bash](./screenshots/22-GitInitialize.png)  
+![pwd in git bash](./images/22-GitInitialize.png)  
 
 The terminal prints a message saying that a git repository has been initialized in your project folder.
 
@@ -63,7 +63,7 @@ To see the git repo, type
 
 ` ls `
 
-![pwd in git bash](./screenshots/23-LsAfterGit.png)  
+![pwd in git bash](./images/23-LsAfterGit.png)  
 
 Wait... that didn't show anything. Where is the git repo?
 
@@ -73,7 +73,7 @@ Some of the commands you use in the command line will let you add options. Optio
 
 The regular 'ls' command only lists files that are not hidden. Windows allows you to hide files, so they do not show up by default. To view hidden file, you will type ls with an option '-a'. This will allow ls list all files in a folder, hidden files inclusive. 
 
-![pwd in git bash](./screenshots/24-LsWithAoptio.png)  
+![pwd in git bash](./images/24-LsWithAoptio.png)  
 
 The git folder has a '.' in front of it. The '.' indicates that the folder is hidden. 
 This folder is for git-only. Not for you. It's where Git stores and monitors the changes you make as your project grows.
