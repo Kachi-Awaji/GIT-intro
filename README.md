@@ -16,11 +16,11 @@ Goodluck.
 
  **Lesson 2** - Git Bash and the Command Line
 
- **Lesson 3** - Repositories and Version Control [work in progress]
+ **Lesson 3** - Repositories and Version Control
 
- **Lesson 4** - Coming soon 
+ **Lesson 4** - Committing your work 
 
- **Lesson 5** - Coming soon 
+ **Lesson 5** - Going remote [coming soon]
 
  **Lesson 6** - Coming soon 
 

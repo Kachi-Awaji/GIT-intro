@@ -78,4 +78,5 @@ The regular 'ls' command only lists files that are not hidden. Windows allows yo
 The git folder has a '.' in front of it. The '.' indicates that the folder is hidden. 
 This folder is for git-only. Not for you. It's where Git stores and monitors the changes you make as your project grows.
 
+
 In the next tutorial, we will learn how to make git work for us.
