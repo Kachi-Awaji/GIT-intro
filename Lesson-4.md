@@ -13,15 +13,15 @@ Last lesson, we learnt that the command 'git init' creates a repository in our p
 
 ![Git Status](./images/25-WorkingDirectory.png) 
 
-'git init' creates a hidden folder, which we call our repository. This is Git's house in your folder. From here, it will monitor the files in your folder, and store information about changes they go through as our project matures.
+`git init` creates a hidden folder - a Git repository. This is Git's home in your working folder. From here, it will monitor the files in your folder, and store information about changes they go through as our project matures.
 
-Let's begin by getting some information about our repository. In the command line, type `git status`
+Let's begin by getting some information about our repository. In the command line, type `git status`. You should get an output similar to the one below.
 
 ![Git Status](./images/26-GitStatus.png)  
 
-The git status prints a message that will be very confusing at first; will feel like reading Chinese. Let's go through it line-by-line. 
+The `git status` command prints a message that will be very confusing at first; will feel like reading Chinese. Let's go through it line-by-line. 
 
-The first line of the message says 
+The first line of the message says  
 ` On branch master `
 
 We will talk about branches in more detail in a future lesson. But for now, note that all git projects begin on a branch called master.
