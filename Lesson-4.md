@@ -11,13 +11,13 @@ We will talk about the index (staging area), and end the lesson by making our fi
 
 Last lesson, we learnt that the command 'git init' creates a repository in our project folder.  
 
-![Git Status](./screenshots/25-WorkingDirectory.png) 
+![Git Status](./images/25-WorkingDirectory.png) 
 
 'git init' creates a hidden folder, which we call our repository. This is Git's house in your folder. From here, it will monitor the files in your folder, and store information about changes they go through as our project matures.
 
 Let's begin by getting some information about our repository. In the command line, type `git status`
 
-![Git Status](./screenshots/26-GitStatus.png)  
+![Git Status](./images/26-GitStatus.png)  
 
 The git status prints a message that will be very confusing at first; will feel like reading Chinese. Let's go through it line-by-line. 
 
@@ -39,7 +39,7 @@ When you intialize Git, you also have to tell Git what files to monitor in your 
 
 We haven't begun tracking any files in our project. To begin tracking files in our project, we use the `git add` command.
 
-![Git Status](./screenshots/29-GitStatusHighlight.png)
+![Git Status](./images/29-GitStatusHighlight.png)
 
 Let's talk about this command a bit more; learning how to use this command is essential. 
 
@@ -51,6 +51,6 @@ Alright, less talking. Let's do an example.
 
 In our project folder, let's tell Git to track changes to our index.html and main.css files.
 
-![Git Status](./screenshots/27-GitAddCommand.png)
+![Git Status](./images/27-GitAddCommand.png)
 
-![Git Status](./screenshots/27-GitAddCommand.png)
+![Git Status](./images/27-GitAddCommand.png)
