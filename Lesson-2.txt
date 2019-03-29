@@ -20,14 +20,14 @@ To start Git Bash, perform the following actions
  - Click the option for Git Bash.  
 You can also type 'git bash' in the Start menu, and click to start the program.  
 
-![Using GitBash](./screenshots/11-GitBash.png)  
+![Using GitBash](./images/11-GitBash.png)  
 *starting Git Bash...*
 <pre>
 </pre>
 
 If you see the screen below, we good...  you've successfully launched the Git Bash Terminal
 
-![GitBash](./screenshots/12-GitBashPrompt.png)  
+![GitBash](./images/12-GitBashPrompt.png)  
 <pre>
 </pre>
 
@@ -41,7 +41,7 @@ The Git Bash shell is a special terminal designed to work with Windows. Below is
  If you have Git Bash opened, you should see a dark, blank screen with a few characters at the top.  
 
  
-![GitBash](./screenshots/12-GitBashPrompt.png)  
+![GitBash](./images/12-GitBashPrompt.png)  
 
 On the first line, there is some text written.
 
@@ -71,7 +71,7 @@ When you start a shell, the program takes a folder on your hard disk, and makes 
 
 To view your working directory, type *pwd* at the prompt and press **Enter**.  
 
-![The Pwd command](./screenshots/13-PWD.png)  
+![The Pwd command](./images/13-PWD.png)  
 
 When you press **Enter**, the command runs and prints a result on the next line. In my case, the shell printed
 
@@ -92,7 +92,7 @@ This means any program or command I run will use this location as a sort of refe
 ## The LS command
 The LS command (or list) shows the content of the current working directory. Enter **ls** at the command prompt to try it.
 
-![GitBash](./screenshots/14-List.png)  
+![GitBash](./images/14-List.png)  
 
 The ls command lists all the files and folders in our working directory. In my screenshot, it displays the contents of the 'awaji' folder. 
 
@@ -107,7 +107,7 @@ In our last example, we ran the LS command and it printed a list of all the file
  
 Type ` cd Documents ` to navigate to the _Documents_ folder. 
 
-![GitBash](./screenshots/15-Cd.png)  
+![GitBash](./images/15-Cd.png)  
 
 Type **ls** to view the contents of _Documents_. See if you can find the Git-It folder in the list. 
 > __Exercise__:  
