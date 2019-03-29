@@ -120,28 +120,3 @@ Type **ls** to view the contents of _Documents_. See if you can find the Git-It 
     To go to a parent folder, use the 'cd ..' command. The ".." refers to parent folder.
 
 We now know enough about the command line to begin working with GIT. In the next lesson, we will initialize our GIT repo and begin to build our homepage.
-
-<!-- 
-
-
-## the mkdir command (make directory)
-
-## a brief on filepath
-
-## further study on the command line
-
-## Initializing our GIT repository
-
-## the git init command
-
-## working directory, repo, and index/staging area
-## the git add command
-
-## the git commit
-    seeing others (ls) (command line and modifiers)
-    looking around
-    moving out
-    moving up
-    moving down
-
- -->

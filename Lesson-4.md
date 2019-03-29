@@ -2,19 +2,24 @@
 
 In the last lesson, we created our first repository by initializing Git in our project folder.
 
-In this lesson, we will explore Git some more, learning a few more commands along the way. We will start working on our project files, and learn how to save the changes to git. 
+In this lesson, we will explore Git some more, learning a few more commands along the way. We will start working on our project files, and learn how to save (or commit) our changes in Git. 
 
 We will talk about the index (staging area), and end the lesson by making our first commit.
 
+
 ## Checking the status of your repository
 
-After you intialize GIT in a repository, the GIT program starts watching your folder. Git can 'see' your folder.. think of him like an invisible partner working with you in the background.
+Last lesson, we learnt that the command 'git init' creates a repository in our project folder.  
 
-Let's begin by finding out some information about the repository. In the command line, type `git status`
+![Git Status](./screenshots/25-WorkingDirectory.png) 
 
-[git status screenshot]
+'git init' creates a hidden folder, which we call our repository. This is Git's house in your folder. From here, it will monitor the files in your folder, and store information about changes they go through as our project matures.
 
-The git status prints a message that will be very confusing at first, like reading Chinese. Let's go through it line-by-line. 
+Let's begin by getting some information about our repository. In the command line, type `git status`
+
+![Git Status](./screenshots/26-GitStatus.png)  
+
+The git status prints a message that will be very confusing at first; will feel like reading Chinese. Let's go through it line-by-line. 
 
 The first line of the message says 
 ` On branch master `
@@ -34,7 +39,9 @@ When you intialize Git, you also have to tell Git what files to monitor in your 
 
 We haven't begun tracking any files in our project. To begin tracking files in our project, we use the `git add` command.
 
-[last line of screenshot.. highlight to track]
+![Git Status](./screenshots/29-GitStatusHighlight.png)
+
+Let's talk about this command a bit more; learning how to use this command is essential. 
 
 Imagine GIT has a list. On this list, he has the names of files in your project that you have asked him to 'track'. 
 
@@ -44,10 +51,6 @@ Alright, less talking. Let's do an example.
 
 In our project folder, let's tell Git to track changes to our index.html and main.css files.
 
-[git add 2 files screenshot]
+![Git Status](./screenshots/27-GitAddCommand.png)
 
-
-
-Initializing Git causes Git to start monitoring your project folder. It doesn't begin watching the files in the folder immediately.
-
-So, Git, after initialization, can see all the files in your folder. 
+![Git Status](./screenshots/27-GitAddCommand.png)
