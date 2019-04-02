@@ -29,7 +29,8 @@ We will talk about branches in more detail in a future lesson.  All git projects
 
 Saving changes to your project on Git is called 'commiting' the changes. This messages shows we haven't made any commits to our repository yet. When we do make our commit, this will be updated.
  
- 3. `Untracked files: `   
+ 3. `Untracked files: `  
+   
 Notice the three files highlighted in red? Recognize them?
 
 When you intialize Git, you also have to tell Git what files to monitor in your project folder. Files that you ask Git to watch in your project folder are called __TRACKED FILES__.
