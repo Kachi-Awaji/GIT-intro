@@ -1,6 +1,6 @@
-# Lesson 4: Commiting your work 
+# Part 5: Commiting your work 
 
-In the last lesson, we created our first repository by initializing Git in our project folder.
+Last lesson, we created our first repository by initializing Git in our project folder.
 
 In this lesson, we will explore Git some more, learning a few new commands along the way. We will start working on our project files, and learn how to save (or commit) our changes in Git. 
 
@@ -19,7 +19,7 @@ Let's begin by getting some information about our repository. In the command lin
 
 ![Git Status](./images/26-GitStatus.png)  
 
-The `git status` command prints a message that will be very confusing at first; will feel like reading Chinese. Let's go through it line-by-line. 
+The `git status` command prints a message that will be very confusing at first; it will feel like reading Chinese. Let's go through it line-by-line. 
 
 - The first line of the message says  
 ` On branch master `
@@ -31,9 +31,9 @@ We will talk about branches in more detail in a future lesson. But for now, note
 
 Saving changes to your project on Git is called 'commiting' the changes. This messages shows we haven't made any commits to our repository yet. When we do make our commit, this will be updated.
 
-- Next, there's a heading
-`Untracked files: `
-A short message follows it. That will be explained soon. For now, notice the three files in our project folder are shown in red.
+- Next, there's a heading  
+`Untracked files: `   
+Notice the three files highlighted in red? Recognize them?
 
 When you intialize Git, you also have to tell Git what files to monitor in your project folder. Files that you ask Git to watch in your project folder are called __TRACKED FILES__.
 
@@ -54,9 +54,10 @@ In our project folder, let's tell Git to track changes to our index.html and mai
 ![Git Status](./images/27-GitAddCommand.png)
 
 Now let's check the status again.  
+
 ![Git Status](./images/28-StatusAfterAdd.png)  
 
-Our now shows new information.
+The status has been updated.
  - No commits on the repository yet.
  - There are two lines of green text below the "Changes to be committed" heading. These are the files we have 'staged' to be committed. The 'new file:' in front of the filenames indicates this is the first time we will be adding the files to the repository.
 - The 'git.png' file is not being tracked. It won't be added to our commit.  
