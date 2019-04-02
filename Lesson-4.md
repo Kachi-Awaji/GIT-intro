@@ -19,7 +19,7 @@ Let's begin by getting some information about our repository. In the command lin
 
 ![Git Status](./images/26-GitStatus.png)  
 
-The `git status` command prints a message that will be very confusing at first; it will feel like reading Chinese. Let's go through it line-by-line. 
+The `git status` command prints a message that will be very confusing at first; it will feel like reading Chinese. Let's go through the important lines.
 
  1. ` On branch master `
 
@@ -28,9 +28,8 @@ We will talk about branches in more detail in a future lesson.  All git projects
  2. `no commits yet`
 
 Saving changes to your project on Git is called 'commiting' the changes. This messages shows we haven't made any commits to our repository yet. When we do make our commit, this will be updated.
-
-- Next, there's a heading  
-`Untracked files: `   
+ 
+ 3. `Untracked files: `   
 Notice the three files highlighted in red? Recognize them?
 
 When you intialize Git, you also have to tell Git what files to monitor in your project folder. Files that you ask Git to watch in your project folder are called __TRACKED FILES__.
