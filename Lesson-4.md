@@ -65,12 +65,22 @@ Now, time to commit our changes.
 # Git Commit
 A commit is a like a save point in your project. You are essentially saying "My files are this way now. They may go through some changes in the future. I want to be able to return to the way they are now."
 
+To commit the changes you staged (using the git add), type  
 
-Type `git commit -m "Commit title"` to commit your work to the repository.
+`git commit -m "Commit title"`  
 
 Let's go through our new command.
 
-The 'git commit' command saves our changes to the local repository - 'local' here meaning the .git folder on your system. Your files reside in your working directory, you add the files to the index, and then you make a commit to the repository. This is the basic Git workflow. Each git commit you make is essential a different version of the project... and with Git, you can go back to previous versions. That's the beauty of version control.
+The 'git commit' command saves our changes to the local repository - 'local repository' here meaning the hidden git folder on in your project.
+
+Working with Git is following three steps (mostly)  
+1. Make changes to the files in the working directory.
+
+2. Add the files to the index(stage changes you want to commit)  
+
+3. Commit.  
+
+This is the basic Git workflow. Each git commit you make is essential a different version of the project... and with Git, you can go back to previous versions. That's the beauty of version control.
 
 Every Git commit should have a message attached, that describes what the commit is about; basically, a short description of the changes you have made. This is important, as you would be working on the project with other programmers. When other programmers go through your repository, they will be able to through a list of commits made. The descriptions you enter will give them a clear idea of your contribution to the project.
 
