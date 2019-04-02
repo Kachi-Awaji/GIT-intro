@@ -21,13 +21,12 @@ Let's begin by getting some information about our repository. In the command lin
 
 The `git status` command prints a message that will be very confusing at first; it will feel like reading Chinese. Let's go through it line-by-line. 
 
-- The first line of the message says  
-` On branch master `
+ 1. ` On branch master `
 
-We will talk about branches in more detail in a future lesson. But for now, note that all git projects begin on a branch called master.
+We will talk about branches in more detail in a future lesson.  All git projects begin on a branch called master.
 
 - The second line says 
-`no commits yet`
+ 2.`no commits yet`
 
 Saving changes to your project on Git is called 'commiting' the changes. This messages shows we haven't made any commits to our repository yet. When we do make our commit, this will be updated.
 
