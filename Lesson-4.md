@@ -25,8 +25,7 @@ The `git status` command prints a message that will be very confusing at first; 
 
 We will talk about branches in more detail in a future lesson.  All git projects begin on a branch called master.
 
-- The second line says 
- 2.`no commits yet`
+ 2. `no commits yet`
 
 Saving changes to your project on Git is called 'commiting' the changes. This messages shows we haven't made any commits to our repository yet. When we do make our commit, this will be updated.
 
