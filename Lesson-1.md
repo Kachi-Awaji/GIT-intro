@@ -9,7 +9,7 @@ On your system, create a folder in any location of your choice. I'd prefer you s
 Our folder will contain the following files:  
 
 ![Folder Structure](./images/2-FolderStructure.png)
- - git.png (an image file containing the git logo). 
+ - git.png (an image file containing the __Git__ logo). 
  - index.html (the homepage of our Git-It project).
  - main.css (a css file to style our homepage, make it look nice).   
  > 1. Create the html and css file in your folder. Both files should be empty.  
@@ -55,4 +55,4 @@ And that's it... well done!!! You have installed __Git__ on your system. High-fi
 
 Click __Finish__ to close the installation dialog box. Well done.
 
-In the next class, we will talk about the command-line, and how it works with __Git__. You will create your first __Git__ repository, and will be introduced to git commands.
+In the next class, we will talk about the command-line, and how it works with __Git__. You will create your first __Git__ repository, and will be introduced to __Git__ commands.
