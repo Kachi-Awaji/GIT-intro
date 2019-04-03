@@ -7,6 +7,7 @@ On your system, create a folder in any location of your choice. I'd prefer you s
 *Screenshot of my **Git-It** folder in Documents*  
 
 Our folder will contain the following files:  
+
 ![Folder Structure](./images/2-FolderStructure.png)
  - git.png (an image file containing the git logo). 
  - index.html (the homepage of our Git-It project).
