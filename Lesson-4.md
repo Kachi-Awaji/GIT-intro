@@ -9,11 +9,11 @@ We will talk about the index (staging area), and end the lesson by making our fi
 
 ## Checking the status of your repository
 
-Last lesson, we learnt that the command 'git init' creates a repository in our project folder.  
+The `git init` command creates a repository in your working directory (project folder).  
 
 ![Git Status](./images/25-WorkingDirectory.png) 
 
-`git init` creates a hidden folder - a Git repository. This is Git's home in your working folder. From here, it will monitor the files in the directory, and store information about changes they go through as the project matures. 
+`git init` creates a hidden folder - a Git repository. This is Git's home in your working folder. From here, it will monitor the files in the directory, and store information about changes they go through as the project progresses. 
 
 Let's begin by getting some information about our repository. In the command line, type `git status`. You should get an output similar to the one below.
 
@@ -65,7 +65,7 @@ Now, time to commit our changes.
 # Git Commit
 A commit is a like a save point in your project. You are essentially saying "My files are this way now. They may go through some changes in the future. I want to be able to return to the way they are now."
 
-To commit the changes you staged (using the git add), type  
+To commit the changes you staged (using the `git add` command is sometimes known as staging changes), type  
 
 `git commit -m "Commit title"`  
 
