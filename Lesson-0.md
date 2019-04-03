@@ -1,4 +1,4 @@
-# PART 1: INTRODUCTION TO __Git__ AND _GitHub_
+# PART 1: An Introduction to __Git__ and __GitHub__
 
 The software we use on our various computer devices all run on code; without code, your phone, and most modern electronics, would just be boring, lifeless, metallic boxes. Code is what software is made of, and it is written by people we call _programmers_. 
 
