@@ -7,15 +7,15 @@ Last lesson, we learnt how to use __Git__ Bash. We also learnt a few commands to
 ## Version Control With __Git__
 For this lesson, we will be working in our project directory. Open __Git__ bash and navigate to your project folder to begin.  
 > You can also start __Git__ Bash using the Windows Explorer. 
-* In Windows explorer, open your project folder  
-![The Project Folder](./images/17-ProjectFolder.png)  
-
-* Right-click, and select "__Git__ Bash here" to start __Git__ Bash. This will cause __Git__ bash to set this folder as working directory when it starts.  
-![Launching __Git__ Bash through windows explorer](./images/18-GitBashHere.png)  
-
-* When __Git__ Bash starts, confirm your working directory is the project directory by using the command *pwd*  
-
-![pwd in git bash](./images/19-PWDGitBash.png)  
+> * In Windows explorer, open your project folder  
+> ![The Project Folder](./images/17-ProjectFolder.png)  
+>
+> * Right-click, and select "__Git__ Bash here" to start __Git__ Bash. This will cause __Git__ bash to set this folder as working directory when it starts.  
+> ![Launching __Git__ Bash through windows explorer](./images/18-GitBashHere.png)  
+> 
+> * When __Git__ Bash starts, confirm your working directory is the project directory by using the command *pwd*  
+>
+> ![pwd in git bash](./images/19-PWDGitBash.png)  
 
 ## Configuring __Git__
 Be patient.. we will soon create our first repository. Before we do that, we should make some changes on our git configuration. Remember that GIT is meant for collaboration, right? How do programmers know which programmer has made changes to the project?
