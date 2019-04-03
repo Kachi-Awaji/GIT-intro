@@ -2,7 +2,7 @@
 
 The software we use on our various computer devices all run on code; without code, your phone, and most modern electronics, would just be boring, lifeless, metallic boxes. Code is what software is made of, and it is written by people we call _programmers_. 
 
-The web sites and applications you use today are rarely written by a single programmer. Programmers usually work in teams, building and crafting a project line by line, changing code, updating code, and adding new features. The applications you use today have gone through a lot of refining to make them work nicer, better, and faster.
+The web sites and applications you use today are rarely written by a single programmer. Programmers usually work in teams, building and crafting an application by writing lines of code, updating code to fix problems, and adding new code that proivdes new features. The applications you use today have gone through a lot of refining to make them work nicer, better, and faster.
 
 As a project grows (especially for large programs or software), it becomes important to record or monitor the changes that occur over time. There are various ways to watch, or track, these changes. These methods are collectively called version control systems -- systems designed to track various versions of a project. This is where __Git__ comes in.
 
