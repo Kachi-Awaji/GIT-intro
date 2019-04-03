@@ -26,17 +26,17 @@ First, go to https://git-scm.com/downloads, and click on the download link on th
 
 ![Downloading __Git__](./images/4-DownloadGit.png)  
 
-The download should begin once you click the 'Download' button. After it is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, where you will make some settings before __Git__ is installed.  
+The download should begin once you click the _Download_ button. After it is done, double-click the file you downloaded to begin the installation. This will start a series of dialog boxes, where you will make some settings before __Git__ is installed.  
 
 ![Installing Git](./images/5-GITinstallation.png)  
 
-Click **Next** to begin.  
+Click _Next_ to begin.  
 
-The next dialog box lets you select a folder on your system where you would like to install __Git__. You don't need to change anything here so click **Next** to move forward.  
+The next dialog box lets you select a folder on your system where you would like to install __Git__. You don't need to change anything here so click _Next_ to move forward.  
 
 ![Select installation location](./images/6-DestinationLocation.png)  
 
-On the next screen, you can select some components you want installed with __Git__. The default options are fine and don't need further tweaking. Click **Next** to continue.  
+On the next screen, you can select some components you want installed with __Git__. The default options are fine and don't need further tweaking. Click _Next_ to continue.  
 
 ![Components Setup](./images/7-ComponentsSetup.png)  
 
@@ -44,8 +44,8 @@ On the next screen, you can select some components you want installed with __Git
 
 ![Code Editor](./images/8-CodeEditor.png)  
 
-This dialog box lets you pick your preffered text editor. __Git__ is a command-line tool (more on that later), and works mostly by typing text or commands on screen. Click the drop-down to pick your text editor, or click Next to leave it as default.  
-The next few dialog boxes contain features for advanced users. Click "Next" to go through them, until the installation begins.  
+This dialog box lets you pick your preffered text editor. __Git__ is a command-line tool (more on that later), and works mostly by typing text or commands on screen. Click the drop-down to pick your text editor, or click _Next_ to leave it as default.  
+The next few dialog boxes contain features for advanced users. Click _Next_ to go through them, until the installation begins.  
 
 ![Installation Finally](./images/9-InstallationFinally.png)  
 
@@ -53,6 +53,6 @@ And that's it... well done!!! You have installed __Git__ on your system. High-fi
 
 ![Installation complete](./images/10-InstallationComplete.png)  
 
-Click __Finish__ to close the installation dialog box. Well done.
+Click _Finish_ to close the installation dialog box. Well done.
 
 In the next class, we will talk about the command-line, and how it works with __Git__. You will create your first __Git__ repository, and will be introduced to __Git__ commands.
