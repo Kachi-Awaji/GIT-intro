@@ -113,4 +113,4 @@ Type **ls** to view the contents of _Documents_. See if you can find the __Git__
 
     To go to a parent folder, use the 'cd ..' command. The ".." refers to parent folder.
 
-We now know enough about the command line to begin working with GIT. In the next lesson, we will initialize our GIT repo and begin to build our homepage.
+We now know enough about the command line to begin working with __Git__. In the next lesson, we will initialize our __Git__ repo and begin to build our homepage.
