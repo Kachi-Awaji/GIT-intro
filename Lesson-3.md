@@ -18,16 +18,17 @@ For this lesson, we will be working in our project directory. Open __Git__ bash 
 > ![pwd in git bash](./images/19-PWDGitBash.png)  
 
 ## Configuring __Git__
-Be patient.. we will soon create our first repository. Before we do that, we should make some changes on our git configuration. Remember that GIT is meant for collaboration, right? How do programmers know which programmer has made changes to the project?
+Be patient.. we will soon create our first repository. Before we do that, we should make some changes on our git configuration. Remember that __Git__ is meant for collaboration, right? How do programmers know which programmer has made changes to the project?
 
-__IDENTITIES__
+### IDENTITIES
+__Git__ comes along with a configuration tool that lets you set and update various information. Updating your identity is the first thing you should do after installing __Git__. This will be useful in the future, when you upload your repositories to __GitHub__.
 
-__Git__ comes along with a configuration tool that lets you set and update various information. Updating your identity is the first thing you should do after installing __Git__. This will be useful in the future, when you upload your repositories to GitHub.
+To add your name to __Git__ config, type the following command
 
-To add your name to __Git__ config, type the following command  
 `git config --global user.name "Your name" `  
 
 To update your email, you type something similar  
+
 `git config --global user.email "youremail@yourdomain.com"`  
 
 ![pwd in git bash](./images/20-configGit.png)  
@@ -45,27 +46,27 @@ Now, let's create our repository.
 ## Creating a repository
 __Git__ uses what we call "repositories" to store information about your project's changes. This "repository" is a special folder __Git__ creates in your project folder, when __Git__ is initialized. Repositories are sometimes called 'repos'.
 
-To create a git repository, in the terminal, type 
+To create a __Git__ repository, in the terminal, type 
 
 `git init`
 
 ![pwd in git bash](./images/22-GitInitialize.png)  
 
-The terminal prints a message saying that a git repository has been initialized in your project folder.
+The terminal prints a message saying that a __Git__ repository has been initialized in your project folder.
 
-To see the git repo, type
+To see the __Git__ repo, type
 
 ` ls `
 
 ![pwd in git bash](./images/23-LsAfterGit.png)  
 
-Wait... that didn't show anything. Where is the git repo?
+Wait... that didn't show anything. Where is the __Git__ repo?
 
 ### Command line arguments
 
 Some of the commands you use in the command line will let you add options. Options are like special effects on commands; they make them do something special.
 
-The regular 'ls' command only lists files that are not hidden. Windows allows you to hide files, so they do not show up by default. To view hidden file, you will type ls with an option '-a'. This will allow ls list all files in a folder, hidden files inclusive. 
+The regular 'ls' command only lists files that are not hidden. Windows allows you to hide files, so they do not show up by default. To view files that are hidden, you will type ls with an option '-a'. This will allow ls list all files in a folder, hidden files inclusive. 
 
 ![pwd in git bash](./images/24-LsWithAoptio.png)  
 
