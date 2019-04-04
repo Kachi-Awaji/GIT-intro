@@ -34,6 +34,7 @@ To update your email, you type something similar
 
 
 To view your configuration setting, type  
+
 `git config user.name`  or `git config user.email`
 
 This will display the current name or email. 
@@ -70,7 +71,7 @@ The regular 'ls' command only lists files that are not hidden. Windows allows yo
 ![pwd in git bash](./images/24-LsWithAoptio.png)  
 
 The git folder has a '.' in front of it. The '.' indicates that the folder is hidden. 
-This folder is for git-only. Not for you. It's where __Git__ stores and monitors the changes you make as your project grows.
+This folder is for **Git-only**. Not for you. It's where __Git__ stores and monitors the changes you make as your project grows.
 
 
-In the next tutorial, we will learn how to make git work for us.
+In the next tutorial, we will learn how to make __Git__ work for us.
