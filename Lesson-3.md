@@ -14,7 +14,6 @@ For this lesson, we will be working in our project directory. Open __Git__ bash 
 > ![Launching __Git__ Bash through windows explorer](./images/18-GitBashHere.png)  
 > 
 > * When __Git__ Bash starts, confirm your working directory is the project directory by using the command *pwd*  
->
 > ![pwd in git bash](./images/19-PWDGitBash.png)  
 
 ## Configuring __Git__
