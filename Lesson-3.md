@@ -17,7 +17,7 @@ For this lesson, we will be working in our project directory. Open __Git__ bash 
 > ![pwd in git bash](./images/19-PWDGitBash.png)  
 
 ## Configuring __Git__
-Be patient.. we will soon create our first repository. Before we do that, we should make some changes on our git configuration. Remember that __Git__ is meant for collaboration, right? How do programmers know which programmer has made changes to the project?
+Be patient.. we will soon create our first repository. Before we do that, we should make some changes on our git configuration. Remember that __Git__ is meant for collaboration, right? How do programmers know who has made changes to the project?
 
 ### IDENTITIES
 __Git__ comes along with a configuration tool that lets you set and update various information. Updating your identity is the first thing you should do after installing __Git__. This will be useful in the future, when you upload your repositories to __GitHub__.
