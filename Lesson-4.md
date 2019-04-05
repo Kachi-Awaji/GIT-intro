@@ -39,11 +39,11 @@ We haven't begun tracking any files in our project. To begin tracking files in o
 
 ![__Git__ Status](./images/29-GitStatusHighlight.png)
 
-Let's talk about this command a bit more; it is an essential tool in __Git__.
+Let's talk about this command a bit more... it is one of the most important Git commands to learn.
 
-Imagine __Git__ has a list. On this list, he has the names of files in your project that you have asked him to 'track'. 
+Imagine __Git__ has a list. On this list, it has the names of files in your project that you have asked it to 'track'. 
 
-This list is empty when the repository is initialized. To add files to this list, you use the 'git add' command.
+This list is empty when the repository is initialized. You will use the 'git add' command to include files on this list.
 
 Alright, less talking. Let's do an example.
 
@@ -51,21 +51,21 @@ In our project folder, let's tell __Git__ to track changes to our index.html and
 
 ![__Git__ Status](./images/27-GitAddCommand.png)
 
-Now let's check the status again.  
+Check the status again.  
 
 ![__Git__ Status](./images/28-StatusAfterAdd.png)  
 
-The status has been updated.
+Notice the status has been updated.
  - No commits on the repository yet.
  - There are two lines of green text below the "Changes to be committed" heading. These are the files we have 'staged' to be committed. The 'new file:' in front of the filenames indicates this is the first time we will be adding the files to the repository.
 - The 'git.png' file is not being tracked. It won't be added to our commit.  
 
-Now, time to commit our changes.
+We are now ready to make our first commit.
 
 # __Git__ Commit
-A commit is a like a save point in your project. You are essentially saying "My files are this way now. They may go through some changes in the future. I want to be able to return to the way they are now."
+A commit is like a savepoint in your project. You are essentially saying "My files are this way now. They may go through some changes in the future. I want to be able to return to the way they are now."
 
-To commit the changes you staged (using the `git add` command is sometimes known as staging changes), type  
+To commit the files you staged (using the `git add` command is sometimes known as _staging changes_), type  
 
 `git commit -m "Commit title"`  
 
@@ -80,17 +80,17 @@ Working with __Git__ is following three steps (mostly)
 
 3. Commit.  
 
-This is the basic __Git__ workflow. Each git commit you make is essential a different version of the project... and with __Git__, you can go back to previous versions. That's the beauty of version control.
+This is the basic __Git__ workflow. Each git commit you make is a different version of the project... and __Git__ stores these versions so you can go back to them, if you need to. That's the beauty of version control with __Git__.
 
-Every __Git__ commit should have a message attached, that describes what the commit is about; basically, a short description of the changes you have made. This is important, as you would be working on the project with other programmers. When other programmers go through your repository, they will be able to through a list of commits made. The descriptions you enter will give them a clear idea of your contribution to the project.
+Every __Git__ commit should have a message attached, that describes what the commit is about -- a short description of the changes you have made. This is important, as you would be working on the project with other programmers. The descriptions you enter will give them a clear picture of your contributions.
 
-Using only the 'git command' would open your text editor. This will let you type in your description before the commit is complete. This can be confusing sometimes. The -m option is a quicker command to learn.
+Using only the 'git command' would open your text editor. This will let you type in your description before the commit is complete. This can be confusing sometimes. The -m option is an easier command to learn.
 
-The -m let us type in our description at the end of the command. One thing is important though - the descriptioin must be in quotation marks ("").
+Using the `-m` option lets us type in our description at the end of the command. One thing is important though - the description must be in quotation marks ("").
 
-So, let us make our first commit.
+Alright, let's make our first commit.
 
-git commit -m "My first commit"  
+`git commit -m "My first commit"`  
 
 ![__Git__ Status](./images/30-FirstCommit.png)  
 
