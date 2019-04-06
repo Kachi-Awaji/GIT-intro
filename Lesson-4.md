@@ -160,7 +160,7 @@ p{
 }
 
 ```
-Our files now have some code. You can click the _index.html_ file to view the webpage. Type 'git status' to see updated information about the repository.  
+Our files now have some code. You can double-click the _index.html_ file to view the webpage in your browser. Type 'git status' to see updated information about the repository.  
 
 ![__Git__ Status](./images/32-GitStatusBefore2ndCommit.png)  
 
