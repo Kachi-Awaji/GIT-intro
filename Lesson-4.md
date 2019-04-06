@@ -179,8 +179,14 @@ Let's stage our changes, and make a new commit.
 
 ![__Git__ Status](./images/34-GitStatus2ndCommit.png)  
 
-We are now ready to make our second commit. 
+We are now ready to make our second commit. Let's do that.  
+`git commit -m "Added code to index.html and main.css files"`
 
+Remember, your commit message should be a short description of your changes and work on the project.
+
+Now, we have two commits in our repository. To view a list of the commits, type
+
+'git log'
 
 
 Congratulations. So far, so good. You've learnt how to use __Git__ as version control for your project, and you made your first commit.
