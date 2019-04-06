@@ -73,7 +73,7 @@ Let's go through our new command.
 
 The 'git commit' command saves our changes to the local repository - 'local repository' here meaning the hidden git folder on in your project.
 
-Working with __Git__ is following three steps (mostly)  
+For the most part, working with __Git___ will be following these steps.
 1. Make changes to the files in the working directory.
 
 2. Add the files to the index(stage changes you want to commit)  
@@ -93,6 +93,95 @@ Alright, let's make our first commit.
 `git commit -m "My first commit"`  
 
 ![__Git__ Status](./images/30-FirstCommit.png)  
+
+The commit command prints a message showing information about itself. Our focus will be on the first line. 
+
+![__Git__ Status](./images/31-FirstCommitMessage.png)  
+
+The output indicates that we have commited our changes to a branch called _master_. We will talk about branches in a future lesson, but it's good to remember that every git repository begins on a _master_ branch.
+
+_(root-commit)_ signifies that this is our first commit. Beside is a list of what looks like random numbers and letters. What you have on your system would probably be different from mine. What do they mean?
+
+Every time you make a commit, __Git__ gives that commit a special name to identify. This name is generated using your content, and will uniquely identify the commit in the repository. Technically, it is called a __SHA-1 checksum__.
+
+## Working on our project files
+Next, we will begin to add code to our files. Add the code below to your project files.
+
+- _Add this to your index.html_  
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Git-It</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h2>Learning Git</h2>
+    <img src="Git.png" alt="Git Logo">
+    <p>The most popular version control software</p>
+</body>
+</html>
+
+```
+
+- _Add this code to your main.css_  
+```
+html, body{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: #29163b;
+    padding-top: 40px;
+}
+
+h2{
+    color: #e7dcf2;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #bbbb73;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #1d1111;
+}
+
+```
+We have now updated our files. Type 'git status' to see updated information about the repository.
+
+
+![__Git__ Status](./images/32-GitStatusBefore2ndCommit.png)  
+
+Our status now shows both files as modified. It also tells we have made changes that have not yet been staged. It also shows the untracked file (our git logo).
+
+Let's stage our changes, and make a new commit.
+
+` git add index.html main.css `  
+
+![__Git__ Status](./images/33-GitAdd2ndCommit.png)  
+
+> The `git add` command also lets you provide multiple files to be added to the staging area. Make sure there is a space between each file name.
+
+`git status` will show the files have been staged, and are ready for commit.  
+
+![__Git__ Status](./images/34-GitStatus2ndCommit.png)  
+
+We are now ready to make our second commit. 
+
+
 
 Congratulations. So far, so good. You've learnt how to use __Git__ as version control for your project, and you made your first commit.
 
