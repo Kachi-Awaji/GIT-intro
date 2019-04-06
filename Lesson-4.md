@@ -100,9 +100,9 @@ The commit command prints a message showing information about itself. Our focus 
 
 The output indicates that we have commited our changes to a branch called _master_. We will talk about branches in a future lesson, but it's good to remember that every git repository begins on a _master_ branch.
 
-_(root-commit)_ signifies that this is our first commit. Beside is a list of what looks like random numbers and letters. What you have on your system would probably be different from mine. What do they mean?
+_(root-commit)_ signifies that this is our first commit. On its' right, there is what looks like a bunch of random numbers and letters. What you have on your system would probably be different from mine. What do they mean?
 
-Every time you make a commit, __Git__ gives that commit a special name to identify. This name is generated using your content, and will uniquely identify the commit in the repository. Technically, it is called a __SHA-1 checksum__.
+Every time you make a commit, __Git__ gives that commit a special name to identify. This name is generated using your content, and will uniquely identify the commit in the repository. Technically, it is called a __SHA-1 hash__.
 
 ## Working on our project files
 Next, we will begin to add code to our files. Add the code below to your project files.
@@ -165,7 +165,7 @@ We have now updated our files. Type 'git status' to see updated information abou
 
 ![__Git__ Status](./images/32-GitStatusBefore2ndCommit.png)  
 
-Our status now shows both files as modified. It also tells we have made changes that have not yet been staged. It also shows the untracked file (our git logo).
+Our status now shows both files as modified. It also indicates we have made changes that have not yet been staged, and notes we have one untracked file (our git logo).
 
 Let's stage our changes, and make a new commit.
 
@@ -180,15 +180,27 @@ Let's stage our changes, and make a new commit.
 ![__Git__ Status](./images/34-GitStatus2ndCommit.png)  
 
 We are now ready to make our second commit. Let's do that.  
-`git commit -m "Added code to index.html and main.css files"`
+`git commit -m "Added code to index.html and main.css files"`  
 
-Remember, your commit message should be a short description of your changes and work on the project.
+![__Git__ Status](./images/35-SecondCommit.png)  
+> Remember, your commit message should be a short description of your changes and work on the project.
 
-Now, we have two commits in our repository. To view a list of the commits, type
-
-'git log'
+Now, we have two commits in our repository. You can check the history of your repository using the `git log` command.
 
 
-Congratulations. So far, so good. You've learnt how to use __Git__ as version control for your project, and you made your first commit.
+To view a list of the commits, type  
 
-In our next lesson, we will be learning about remote repositories. We will talk about Github, the online code-hosting site that runs on __Git__. See you soon.
+'git log'  
+
+This command displays a list of commits in your repository. The list shows the most recent commit at the top, followed by the previous commits. 
+![__Git__ Status](./images/37-ViewingHistory.png)  
+
+Let's take a look at our most recent commit.  
+
+![__Git__ Status](./images/38-CommitBlock.png)  
+
+At the top, it shows the __SHA-1 hash__ of the commit. The __SHA-1 hash__ usually contains about 40 characters. You don't have to memorize or use the full hash, you can use the first seven characters to identify the commit. We will use the hash when we want to revert our project to the way it was at a particular commit.
+
+So far, so good. This lesson was a long one. We started using version control on our project, and made our first commits. 
+
+In the next lesson, we will continue working our project, making changes and adding new commits. See you soon.
