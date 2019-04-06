@@ -160,8 +160,7 @@ p{
 }
 
 ```
-We have now updated our files. Type 'git status' to see updated information about the repository.
-
+Our files now have some code. You can click the _index.html_ file to view the webpage. Type 'git status' to see updated information about the repository.  
 
 ![__Git__ Status](./images/32-GitStatusBefore2ndCommit.png)  
 
