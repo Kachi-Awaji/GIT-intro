@@ -160,11 +160,11 @@ p{
 }
 
 ```
-Our files now have some code. You can click the _index.html_ file to view the webpage. Type 'git status' to see updated information about the repository.  
+Our files now have some code. You can double-click the _index.html_ file to view the webpage in your browser. Type 'git status' to see updated information about the repository.  
 
 ![__Git__ Status](./images/32-GitStatusBefore2ndCommit.png)  
 
-Our status now shows both files as modified. It also indicates we have made changes that have not yet been staged, and notes we have one untracked file (our git logo).
+Our status now indicates we have made changes that have not yet been staged. Both files have been marked as modified. It also notes we have one untracked file (our git logo).
 
 Let's stage our changes, and make a new commit.
 
@@ -172,33 +172,36 @@ Let's stage our changes, and make a new commit.
 
 ![__Git__ Status](./images/33-GitAdd2ndCommit.png)  
 
-> The `git add` command also lets you provide multiple files to be added to the staging area. Make sure there is a space between each file name.
+> The `git add` command also lets you add multiple files at once. Just list them after 'git add' and put a space before each file name.
 
-`git status` will show the files have been staged, and are ready for commit.  
+Running `git status` again will show the files have been staged, and are ready for commit.  
 
 ![__Git__ Status](./images/34-GitStatus2ndCommit.png)  
 
 We are now ready to make our second commit. Let's do that.  
+
 `git commit -m "Added code to index.html and main.css files"`  
 
 ![__Git__ Status](./images/35-SecondCommit.png)  
 > Remember, your commit message should be a short description of your changes and work on the project.
 
-Now, we have two commits in our repository. You can check the history of your repository using the `git log` command.
+Now, we have two commits in our repository. The commits are a history of our project, and you can use the `git log` command to view your repo's history.
 
+Type 'git log' in the command line.  
 
-To view a list of the commits, type  
-
-'git log'  
-
-This command displays a list of commits in your repository. The list shows the most recent commit at the top, followed by the previous commits. 
 ![__Git__ Status](./images/37-ViewingHistory.png)  
+> The list shows the most recent commit at the top. 
 
 Let's take a look at our most recent commit.  
 
 ![__Git__ Status](./images/38-CommitBlock.png)  
 
 At the top, it shows the __SHA-1 hash__ of the commit. The __SHA-1 hash__ usually contains about 40 characters. You don't have to memorize or use the full hash, you can use the first seven characters to identify the commit. We will use the hash when we want to revert our project to the way it was at a particular commit.
+
+It also shows the author of the commit, and author's email. The date and time the commit was made is also shown. 
+
+At the bottom is the description/message you tagged along the commit - in this case, _"added code to index.html and main.css files"_.
+
 
 So far, so good. This lesson was a long one. We started using version control on our project, and made our first commits. 
 
