@@ -57,13 +57,29 @@ Use the `git push` command to push your local save to __GitHub__.
 
 ![__Git__ Status](./images/46-GitPushOri.png)  
 
-This will cause Git Bash to show you a __GitHub__ login screen. Enter the username and password of the account you created on __GitHub__.
+This will cause Git Bash to show you a __GitHub__ login screen. Enter the username and password of the account you created on __GitHub__, then click _Login_.
 
 ![__Git__ Status](./images/47-GitHubLogin.png)
 
 If all goes well, you should see a similar output.
 
-![__Git__ Status](./images/45-GitPushSuccess.png)
+![__Git__ Status](./images/48-GitPushSuccess.png)
+
+Now, go back to your profile on [__GitHub__](https://www.github.com), and click on the repository.
+
+![__Git__ Status](./images/49-RepoOnGitHub.png)
+
+Your repository has been updated, and the files you pushed can be viewed online now.
+
+> Note the git.png is on your GitHub. This was because it wasn't include in the commits. The files in the working directory on the repository are generated from the commits in the .git folder. 
+
+So far, so good. You've learnt how to host your repositories on __GitHub__. Next, we will learn how to download repositories from __GitHub__ to our local system.
+
+## Downloading Repos from GitHub
+
+
+
+
 
 
 
