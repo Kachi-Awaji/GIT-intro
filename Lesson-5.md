@@ -14,19 +14,20 @@ To host repositories on __GitHub__, create an account by visiting [their website
 
 For this series, I have created an account on __GitHub__ called Git-Hub-Learn. It will host repositories for the series which you will be working with later.
 
-When you create a repository on your system using __Git Bash__, the repository is stored on your PC. __GitHub__ lets you create repositories that are hosted on its servers.. and you don't need the 'git init' command to create one.
+When you create a repository on your system using __Git Bash__, the repository is stored on your PC. __GitHub__ lets you create repositories that are hosted on its servers...
 
 ## Creating a repository on GitHub
 To create a repository on GitHub, in the upper-right corner of any page, click the __+__ symbol to get a drop-down. Click "New repository" to create a repository.  
 
+![__Git__ Status](./images/42-CreateRepoGitHub.png)  
+
 ![__Git__ Status](./images/43-CreateRepoLabel.png)  
 
-
-You can choose to make the repository either public or private. Public repositories are visible to the public, while private repositories are only accessible to you, and people you share them with.
+You can choose to make your repository either public or private. Public repositories are visible to the public, while private repositories are only accessible to you, and people you share them with.
 
 Congratulations! You've successfully created your first repository on __GitHub__. 
 
-Next, we will link our local repo with our remote repo. This will make our local Git-Hub project accessible to others. 
+Next, we will link our local repo with our remote repo so our project will be accessible to others. 
 
 ## Linking your local repo to a remote repo
 So, you have a __Git__ repository sitting on your system. Now you want to share your project to the world, so others can have a copy on their systems. 
