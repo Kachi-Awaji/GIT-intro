@@ -4,10 +4,9 @@ In the previous section, we created a local repository and made our first commit
 
 What if you'd like to share your repository with other programmers? You can do that using __Git__ and an online service that lets you host __Git__ repositories. In this lesson, we will learn to create remote repositories using __GitHub__, an online code-hosting platform.
 
-__Git__ is a _distributed_ VCS (version control system). This means the git repository in your project folder can be shared with others. This will let them have not just access to your files, they'd also be able to view the history of the project too(view the commits you have made). You can share your repository with others by hosting them online.
+__Git__ is a _distributed_ VCS (version control system). This means the git repository in your project folder can be shared with others, and they can work on your files and make changes as they wish on their own systems. This will let them have not just access to your files, they'd also be able to view the history of the project too(view the commits you have made). You can share your repository with others by hosting them online.
 
-A few services that let you host repositories online include __GitHub__, __Bitbucket__, __GitLab__ and a few others. GitHub is the most popular and will be our focus in this series.
-
+Some services that let you host repositories online include __GitHub__, __Bitbucket__, __GitLab__ and a few others. GitHub is the most popular and will be our focus in this series.
 
 ## Using GitHub
 To host repositories on __GitHub__, create an account by visiting [their website](https://www.github.com). You should verify your account too; click on the link in an email that will be sent to you after you register.

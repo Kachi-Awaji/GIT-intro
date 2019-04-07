@@ -1,4 +1,4 @@
-# Part 4: Repositories and Version Control
+# Repositories and Version Control
 
 Last lesson, we learnt how to use __Git__ Bash. We also learnt a few commands to navigate, view, and list the contents of our directories. In this lesson, we will create our first __Git__ repo, and begin working on our project files.
 
