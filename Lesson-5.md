@@ -19,7 +19,7 @@ When you create a repository on your system using __Git Bash__, the repository i
 ## Creating a repository on GitHub
 To create a repository on GitHub, in the upper-right corner of any page, click the __+__ symbol to get a drop-down. Click "New repository" to create a repository.  
 
-![__Git__ Status](./images/42-CreateRepoGitHub.png)  
+![__Git__ Status](./images/42-CreateARepoGitHub.png)  
 
 ![__Git__ Status](./images/43-CreateRepoLabel.png)  
 
