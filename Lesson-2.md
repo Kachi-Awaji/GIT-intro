@@ -1,4 +1,4 @@
-# Part 3: __Git__ Bash and the Command Line
+# __Git__ Bash and the Command Line
 
 In our last lesson, we created a folder for our project files and installed **__Git__**. We also talked about the importance of version control and collaboration when building large projects.
 

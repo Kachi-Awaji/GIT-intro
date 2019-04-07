@@ -65,12 +65,13 @@ If all goes well, you should see a similar output.
 
 ![__Git__ Status](./images/48-GitPushSuccess.png)
 
-Now, go back to your profile on [__GitHub__](https://www.github.com), and click on the repository.
+Now, go back to your profile on [__GitHub__](https://www.github.com), and click on the repository. __GitHub_ displays a list of your repositories on the left of the screen.
 
 ![__Git__ Status](./images/49-RepoOnGitHub.png)
 
 Your repository has been updated, and the files you pushed can be viewed online now.
 
+![__Git__ Status](./images/50-RepoFilesPushed.png)
 > Note the git.png is on your GitHub. This was because it wasn't include in the commits. The files in the working directory on the repository are generated from the commits in the .git folder. 
 
 So far, so good. You've learnt how to host your repositories on __GitHub__. Next, we will learn how to download repositories from __GitHub__ to our local system.
