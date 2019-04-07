@@ -31,7 +31,7 @@ Next, we will link our local repo with our remote repo. This will make our local
 ## Linking your local repo to a remote repo
 So, you have a __Git__ repository sitting on your system. Now you want to share your project to the world, so others can have a copy on their systems. 
 
-Believe it or not, all you need is two commands to do so. The `git remote add` command lets you connect one local repository to a remote one. It takes two other values - the name of the remote repo, and a link to the remote repository.
+Believe it or not, all you need is two commands to do so. The `git remote add` command lets you connect one local repository to a remote one. It takes two other values - a repo name(the remote repo is usually called origin), and a link to the remote repository.
 
 The link to the remote repository is shown on GitHub. 
 
@@ -42,11 +42,13 @@ The link to the remote repository is shown on GitHub.
  your user name : Git-Hub-learn/  
  the repo name : my-remote.git  
 
+so, to link our Git-Hub repo, Git bash into your project folder and type
 
-First, we will link our repository to the remote one. To do so, type 
-`git remote add origin _repoLink_`
+`git remote add origin https://github.com/Git-Hub-learn/my-remote.git`
 
-The `git remote
+That's all. The command line doesn't print any output. To see the changes, type `git command --list`. At the bottom of the output, you should see  _remote.origin.url_ which contains a link to your remote repository.  
+
+![__Git__ Status](./images/45-GitRemoteConfig.png)  
 
 
 
