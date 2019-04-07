@@ -1,4 +1,4 @@
-# Part 6: Github: Working with remote repositories
+# Working with remote repositories
 
 In the previous section, we created a local repository and made our first commits. We also learnt to use the `git commit` command to save changes to the repository, and learnt the `git log` command for viewing our repo's history.
 
@@ -52,7 +52,7 @@ That's all. The command line doesn't print any output so you might not notice an
 
 Next, we will 'push' our local repo to our hosted one. A 'push' moves the commits in your local repository, to the remote repository. 
 
-Use the `git push` command to push your local save to __GitHub__.  
+Use the `git push origin master` command to push your local save to __GitHub__. _origin_ indicates we are pushing the changes on our _master_ branch to our remote repository. 
 
 ![__Git__ Status](./images/46-GitPushOri.png)  
 
