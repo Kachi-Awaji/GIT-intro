@@ -6,7 +6,7 @@ What if you'd like to share your repository with other programmers? You can do t
 
 __Git__ is a _distributed_ VCS (version control system). This means the git repository in your project folder can be shared with others. This will let them have not just access to your files, they'd also be able to view the history of the project too(view the commits you have made). You can share your repository with others by hosting them online.
 
-A few services that let you host repositories online include __GitHub__, __Bitbucket__, __GitLab__ and a few others. GitHub is the most popular and our focus in this series.
+A few services that let you host repositories online include __GitHub__, __Bitbucket__, __GitLab__ and a few others. GitHub is the most popular and will be our focus in this series.
 
 
 ## Using GitHub
@@ -47,11 +47,28 @@ so, to link our Git-Hub repo, Git bash into your project folder and type
 
 `git remote add origin https://github.com/Git-Hub-learn/my-remote.git`
 
-That's all. The command line doesn't print any output. To see the changes, type `git command --list`. At the bottom of the output, you should see  _remote.origin.url_ which contains a link to your remote repository.  
+That's all. The command line doesn't print any output so you might not notice any change. To see the changes, type `git command --list`. At the bottom of the output, you should see  _remote.origin.url_ which contains a link to your remote repository.  
 
 ![__Git__ Status](./images/45-GitRemoteConfig.png)  
 
+Next, we will 'push' our local repo to our hosted one. A 'push' moves the commits in your local repository, to the remote repository. 
 
+Use the `git push` command to push your local save to __GitHub__.  
+
+![__Git__ Status](./images/46-GitPushOri.png)  
+
+This will cause Git Bash to show you a __GitHub__ login screen. Enter the username and password of the account you created on __GitHub__.
+
+![__Git__ Status](./images/47-GitHubLogin.png)
+
+If all goes well, you should see a similar output.
+
+![__Git__ Status](./images/45-GitPushSuccess.png)
+
+
+
+<!-- #
+The remote repository takes the most recent commit, and uses that to create the files on the server. 
 
 
 When you created your new repository, you initialized it with a README file. README files are a great place to describe your project in more detail, or add some documentation such as how to install or use your project. The contents of your README file are automatically shown on the front page of your repository.
@@ -89,4 +106,4 @@ Create a repository
 "Fork a repository"
 "Be social"
 
-
+ -->
