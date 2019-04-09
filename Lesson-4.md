@@ -1,4 +1,4 @@
-# Part 5: Commiting your work 
+# Commiting your work 
 
 Last lesson, we created our first repository by initializing __Git__ in our project folder.
 
