@@ -112,13 +112,13 @@ There's a README file whose content is displayed automaticaly below your reposit
 
 ## Forking a repository
 If you want to be able to upload your changes to a public repository on a different account, you would have to 
-- fork the repository
-- make your changes
-- make a pull request
+1. fork the repository
+2. make your changes
+3. make a pull request
 
 Forking a repository makes a copy of that repository on your __GitHub__ account. You can work directly on the files in __GitHub__, then make a pull request once you are done. 
 
-If you are not comfortable working in __GitHub__, you can make a clone of the _repository_ (the one hosted on your account), make your changes, push the changes back to the your forked version, and make a pull request from __GitHub__. I will be teaching only the first method - you can try out the second as an exercise.
+If you are not comfortable working on files in __GitHub__, perhaps you prefer to work in your favourite text edito, you can make a clone of the _repository_ (the one hosted on your account), make your changes, push the changes back to the your forked version, and make a pull request from __GitHub__. I will be teaching only the first method - you can try out the second as an exercise.
 
 The rollcall.md file on the Git-Intro folder will host names and messages of people who have gone through this course. For now, it's a bit empty. Let's work on that.
 
@@ -127,10 +127,52 @@ The rollcall.md file on the Git-Intro folder will host names and messages of peo
 First, fork the repository. Go to the [repository's page](https://github.com/Kachi-Awaji/GIT-intro) and click on the _Fork_ button. 
 
 ![Repository Screenshot](./images/67-Forking.png)
-This will make an exact replica of the repository on your account. You are now ready to add your name to roll call.
+This will make an exact replica of the repository on your account. You will see a message below the repository name indicating the repository was forked, and the source. You are now ready to add your name to roll call.
 
 ![Repository Screenshot](./images/68-ForkedRepo.png)
 
+Scroll down and click on _Rollcall.md_ to view its contents in __GitHub__. On the right side of the next screen, find an icon that looks like a pencil and click it. This will allow you to edit the file.
+
+![Repository Screenshot](./images/69-Editfork.png)
+
+Clicking edit will open the file on __GitHub__ in edit mode - similar to working with the file on the text editor. 
+
+Notice there is a comment in the file. Scroll down to the end of the file, and follow the instructions in the comment. It's important you follow the structure, else your pull request will not be accepted by me. 
+
+Alright, time to make your first contribution. Enter your name and a message in the roll call. Make sure you use the "preview changes" to make sure your entry is similar to that in the screenshot.
+
+![Repository Screenshot](./images/71-contribute.png)
+
+![Repository Screenshot](./images/72-PreviewChange.png)
+
+When you're done, scroll down to commit your change. Remember, the commit will be made to the version of the repository on your account. 
+
+![Repository Screenshot](./images/73-CommitChanges.png)
+
+Enter your commit message in the first field, and a more detailed description below. If you don't fill the commit message, __GitHub__ generates one for you automatically.
+
+Click on _Commit changes_ when you are done. The repository is updated, and now shows you among the list of contributors.
+
+![Repository Screenshot](./images/74-RepoUpdate.png)
+
+We can't _push_ our changes to the main repository. We can only ask for our changes to be _pulled_ into the main repository. That's where _pull requests_ come in - 'o boy i made some changes, please add them to your repository'.
+
+To create a pull request, click on the 'Pull requests' tab on your repository's page. 
+
+![Repository Screenshot](./images/75-PullRequest.png)
+
+Creating a pull request is asking for your changes to be merged into the repository. The master branches of both repositories are compared, and the pull request will only work if both versions can be merged. More on this soon, click the _Create pull request_ button to create a pull request. 
+
+On the next screen, you get a form that lets you fill a title and add a description. This message is part of your pull request and will be read by the owner of the repository when you create the pull request. Make it short and descriptive - developers are usually too busy to read essays.
+
+![Repository Screenshot](./images/77-OpenPullrequest.png)
+
+When you are done, the next screen takes you to the "Pull request" page of the original repository, the one from which you forked. Your pull request is now listed and can be viewed by the owner. 
+
+![Repository Screenshot](./images/78-BackToMyRepo.png)  
+All you have to do is wait, and hope your request is accepted.
+
+Wow, what a long lesson. Well done for coming this far. We are almost done with the series - just a few more topics to be covered. For now though, you have a basic understand of how to download, and contribute to __Git__ projects. See you next lesson.
 
 
 <!-- #
