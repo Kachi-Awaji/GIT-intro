@@ -19,13 +19,21 @@ Sign in to GITHUBHOMEPAGE. You should see a screen with a dark menu bar at the t
 
 Beside the search field are links to let you access pull requests, issues, and the marketplace. We will look at this later on. Clicking _Explore_ will let you view popular repositories on __GitHub__.
 
+[Explore Screenshot]
 
-This menu contains (from left-to-right)  
-1. 
-2. 
-3. 
-4.   
+On the right side of the menu, the notification icon is similar to facebook's. You will be notified if another user follows you, sends you a pull request, etc. Beside is a drop-down menu that lets you do stuff like create new repositories, gists and much more.  You can access your profile settings by clicking your profile picture on the far-right.
+
+[Right-side menu]
+
+You will get more familiar with the menu as your contributions on __GitHub__ grows. Below the menu, this screen is broken into three parts. 
+
+[Below the menu screenshot]
 	
+On the left side, a list of the repositories on your account is displayed. In the middle, you will see updates from other users or projects you might be following. On the right side is links to other repositories you might be interested in... think 'repo suggestions'... 
+
+In the next section, we are going to learn how to find another user on __GitHub__ so we can view their repositories.
+
+You will learn how to make copies of their repositories using the "git clone" command. You  
 
 Below the menu, the screen is divided into three sections.
 
