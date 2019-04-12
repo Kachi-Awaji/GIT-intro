@@ -16,11 +16,9 @@ Beside the search field are links to let you access pull requests, issues, and t
 
 ![__Git__ Status](./images/54-MenuBar.png)  
 
-On the right side of the menu, the notification icon is similar to facebook's. You will be notified if another user follows you, sends you a pull request, etc. Beside is a drop-down menu that lets you do stuff like create new repositories, gists and much more.  You can access your profile settings by clicking your profile picture on the far-right.
+On the right side of the menu, the notification icon is similar to facebook's. You will be notified if another user follows you, sends you a pull request, etc. Besideit is an arrow that produces a drop-down menu when clicked. It lets you do stuff like create new repositories, gists and much more.  You can access your profile settings by clicking your profile picture on the far-right.
 
 You will get more familiar with the menu as your contributions on __GitHub__ grows. Below the menu, the screen is broken into three sections. 
-
-[Below the menu screenshot]
 	
 On the left side, a list of the repositories on your account is displayed. In the middle, you will see updates from other users or projects you might be following. On the right side are links to other repositories you might be interested in... think 'repo suggestions'... 
 
@@ -31,7 +29,7 @@ The Search field is how you find a host of things on __GitHub__. Enter "Kachi Aw
 
 The search results are divided into various categories: repositories, code, commits, issues, marketplace, wikis, and users.
 
-You are looking for a user, so click on _Users_ at the bottom of the list.
+You are looking for a user, so click on _Users_ at the bottom of the list. This will show you two results.
 
 ![__Git__ Status](./images/56-PickUser.png)  
 
@@ -42,9 +40,23 @@ The second is my official account. Click the [__profile picture__](https://githu
 ![__Git__ Status](./images/52-MyGitHub.png)
 
 Links to popular repositories on my profile are shown on the right. 
-You can also click the _Repositories_ tab on the right will to view all repositories on my profile. 
+You can also click the _Repositories_ tab on the right of my profile picture to view all repositories on my profile. 
 
-You will be making a contribution to the __Git-Intro__ repository. Click on the repo name to view the profile.
+You will be making a contribution to the __Git-Intro__ repository. Click on the name to view the repository. 
+
+![Repository Screenshot](./images/57-GitIntro.png)
+
+At the top, the name of the user(Kachi-Awaji) and the repo name(Git-Intro) is shown to identify the repository. You can always look if you get confused when going through __GitHub__.
+
+On the right are three buttons that let you interact with the repository:
+- Click on "Watch" if you want to be notified of changes to this repository. 
+- If you really love a repository, click _star_ to make it easy to find it again later. You can see all the repositories you have starred by going to your stars page. (find your star page by going to your profile and clicking on the _stars_ tab on the right).
+- The "fork" button lets you make a copy of the repository on your profile. We will talk more on this soon.
+
+Just below are six tabs : _Code_, _Issues_, _Pull request_, _Projects_, _Wiki_ and _Settings_. 
+
+58-GitIntroTop.png
+
 
 
 
