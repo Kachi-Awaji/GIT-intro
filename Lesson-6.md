@@ -2,36 +2,49 @@
 
 Last lesson, you created an account on __GitHub__ and pushed a commit to your remote repository.  You are now a proud owner of a __GitHub__ account, giving you access to thousands of projects being built online. 
 
-In this lesson, we will be taking a tour of __GitHub__, looking at the features that mkae it a social coding site. We will learn how collaboration works on __GitHub__, and at the end of this lesson, we will make our first contribution to a __GitHub__ project.
+In this lesson, we will be taking a tour of __GitHub__, looking at the features that make it a social coding site. We will learn how collaboration works on __GitHub__, and at the end of this lesson, we will make our first contribution to a __GitHub__ project.
 
 ## Working with __GitHub__
+> ### __IMPORTANT__
 > The lesson notes for this series are hosted on my __GitHub__ profile. For this lesson, I have created a file called ROLLCALL.md. 
 >
 >The screenshots you will be seeing will be from _Git-Hub-Learn_, a __GitHub__ profile I created for this series. 
 >
->It will, hopefully, mimic the screens you see when you are logged in. 
+>It will, hopefully, mimic the screens while you make your contribution later. 
 >
 >This lesson will be a long one - there is so much to learn. Take your time, and don't rush it. A little patience will go a long way.
 
 
 Sign in to GITHUBHOMEPAGE. You should see a screen with a dark menu bar at the top. On the left, just beside the GitHub logo is a search field you can use to find other __GitHub__ users, repositories, commits, etc. 
-> Tip: You can hit forward-slash(/) to access the search field.
+> Tip: You can hit forward-slash(/) on your keyboard to access the search field.
 
 Beside the search field are links to let you access pull requests, issues, and the marketplace. We will look at this later on. Clicking _Explore_ will let you view popular repositories on __GitHub__.
 
-[Explore Screenshot]
+![__Git__ Status](./images/54-MenuBar.png)  
 
 On the right side of the menu, the notification icon is similar to facebook's. You will be notified if another user follows you, sends you a pull request, etc. Beside is a drop-down menu that lets you do stuff like create new repositories, gists and much more.  You can access your profile settings by clicking your profile picture on the far-right.
 
-[Right-side menu]
-
-You will get more familiar with the menu as your contributions on __GitHub__ grows. Below the menu, this screen is broken into three parts. 
+You will get more familiar with the menu as your contributions on __GitHub__ grows. Below the menu, the screen is broken into three parts. 
 
 [Below the menu screenshot]
 	
-On the left side, a list of the repositories on your account is displayed. In the middle, you will see updates from other users or projects you might be following. On the right side is links to other repositories you might be interested in... think 'repo suggestions'... 
+On the left side, a list of the repositories on your account is displayed. In the middle, you will see updates from other users or projects you might be following. On the right side are links to other repositories you might be interested in... think 'repo suggestions'... 
 
-In the next section, we are going to learn how to find another user on __GitHub__ so we can view their repositories.
+## Finding other users
+The Search find is how you find a host of things on __GitHub__. Enter "Kachi Awaji" to find me (😊) on __GitHub__. 
+
+![__Git__ Status](./images/55-SearchResult.png)  
+
+The search results are divided into various categories: repositories, code, commits, issues, marketplace, wikis, and users.
+
+You are looking for a user, so click on _Users_ at the bootom of the list.
+
+![__Git__ Status](./images/56-PickUser.png)  
+
+
+In the next section, we are going to learn how to find another user on __GitHub__. You can view their profile to get to know about them, and also see a list of their public repositories. Private repositories are usually by professionals who may not want their projects' codes to be viewed publicly.
+
+
 
 You will learn how to make copies of their repositories using the "git clone" command. You  
 
