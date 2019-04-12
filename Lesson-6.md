@@ -2,10 +2,23 @@
 
 Last lesson, you created an account on __GitHub__ and pushed a commit to your remote repository.  You are now a proud owner of a __GitHub__ account, giving you access to thousands of projects being built online. 
 
-In this lesson, we are taking a tour of __GitHub__. __GitHub__ is a social coding site that offers a lot of features for sharing projects and collaboration.
+In this lesson, we will be taking a tour of __GitHub__, looking at the features that mkae it a social coding site. We will learn how collaboration works on __GitHub__, and at the end of this lesson, we will make our first contribution to a __GitHub__ project.
 
 ## Working with __GitHub__
-Sign in to GITHUBHOMEPAGE. You should see a screen with a dark menu bar at the top. 
+> The lesson notes for this series are hosted on my __GitHub__ profile. For this lesson, I have created a file called ROLLCALL.md. 
+>
+>The screenshots you will be seeing will be from _Git-Hub-Learn_, a __GitHub__ profile I created for this series. 
+>
+>It will, hopefully, mimic the screens you see when you are logged in. 
+>
+>This lesson will be a long one - there is so much to learn. Take your time, and don't rush it. A little patience will go a long way.
+
+
+Sign in to GITHUBHOMEPAGE. You should see a screen with a dark menu bar at the top. On the left, just beside the GitHub logo is a search field you can use to find other __GitHub__ users, repositories, commits, etc. 
+> Tip: You can hit forward-slash(/) to access the search field.
+
+Beside the search field are links to let you access pull requests, issues, and the marketplace. We will look at this later on. Clicking _Explore_ will let you view popular repositories on __GitHub__.
+
 
 This menu contains (from left-to-right)  
 1. 
