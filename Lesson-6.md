@@ -18,15 +18,17 @@ Beside the search field are links to let you access pull requests, issues, and t
 
 On the right side, there's a notification icon (it looks like a bell) where you can check notifications. You will get a notification if another user follows you, sends you a pull request, etc. 
 
+![__Git__ Status](./images/63-MenuBarRight.png)  
+
 To its right is a __+__ symbol that produces a drop-down menu when clicked. It lets you do stuff like create new repositories, gists and much more.  
 
-Your profile picture is displayed by the __+__. Click it to access a menu that lets you configure profile and account settings.
+Your profile picture is displayed beside the __+__ symbol. Click it to access a menu that lets you configure profile and account settings.
 
 You will get more familiar with the menu as your contributions on __GitHub__ grows. Below the top menu, the screen is broken into three sections. 
 
 ![__Git__ Status](./images/61-BelowMenu.png) 
 
-A list of the repositories on your account is displayed on the left side. In the middle, you will see updates from other users or projects you might be following. It will also display what you do on __GitHub__. On the right side are links to other repositories you might be interested in... think 'repo suggestions'... 
+A list of the repositories on your account is displayed on the left side. In the middle, you will see updates from other users or projects you might be following. It will also display your activities on __GitHub__ - your contributions, commits, and related information. The right side is the "Discover" section - it displays repositories you might be interested in... think 'repo suggestions'... 
 
 ## Finding other users
 The Search field is how you find a host of things on __GitHub__. Enter "Kachi Awaji" to find me 😊 on __GitHub__. 
@@ -50,9 +52,10 @@ You will be making a contribution to the __Git-Intro__ repository. Click on the 
 
 ![Repository Screenshot](./images/57-GitIntro.png)
 
-At the top, the name of the user(Kachi-Awaji) and the repo name(Git-Intro) is shown to identify the repository. You can always take a quick look at this if you get lost when going through __GitHub__ repositories.
+The repository's identity is displayed at the top - a combination of the username and the repository name. You can always take a quick look at this if you get lost when going through __GitHub__ repositories.
 
 ![Repository Screenshot](./images/58-GitIntroTop.png)
+
 On the right are three buttons that let you interact with the repository:
 - Click on _Watch_ if you want to be notified of changes to this repository. 
 - If you really love a repository, click _Star_ to make it easy to find it again later. You can see all the repositories you have starred by going to your stars page. (find your star page by going to your profile and clicking on the _stars_ tab on the right).
@@ -66,13 +69,36 @@ The _Code_ tab is open by default and displays the contents of the repository be
 
 There's a brief description of the repository, and below it a few stats (number of commits on the repository, branches, releases, and contributors)
 
-Below that are buttons that are two buttons. The one on the left lets you select a branch to work on. The other is for making pull requests. You will learn about these soon.
+Below are two buttons. The one on the left lets you select a branch to work on. The other is for making pull requests. You will learn about these soon.
 
 On the other side are three buttons that let you create a new file, upload a file to the repository, or find a file on the repository.  The green button at the end lets you clone or download the repository.
 
-You _clone_ a repository when you want to make a copy of it to your system. The 'download as zip' option saves the project files in a zip folder for download. This might be helpful for those who do not have __Git__ installed on their system. 
+## Cloning a repository
+You can create a repository on your system, or download one from the internet. __GitHub__ is a great site to find repositories to download. For each repository hosted on your __GitHub__ account, __GitHub__ provides a link for which you can access it. Click the  green __Clone or Download__ button to reveal the link.
 
-We will talk about cloning in a later part of this lesson. 
+![Repository Screenshot](./images/62-CloneDownload.png)
+
+The highlighted link is important if you want a copy of the repository on your system. Cloning a repository downloads the repository to your system, letting you have access to files in the project. The rest of this section will take place in the command line.
+
+To clone a repository, _git bash_ into any folder on your system. For this example, I am using the "Documents" folder on my system. 
+
+On the command line, type `git clone repolink`.
+
+[clone screenshot]
+
+If the command is successful, you should have a new folder in your working directory called "GIT-intro". Type "ls" to confirm. 
+
+The `git clone` command does three things:
+- creates a folder(this folder is same as the repository's name by default)
+- downloads the repository(.git folder) living on the remote address you provided.
+- from the repository, it 'checkouts' the most recent commit. This will reproduce the working directory as it was when it was last saved. All the files that were in the project folder are created. 
+
+You can now make changes to the project file. But, you wouldn't be able to push those changes to the server - the changes you make will only be on your local copy of the repository. Remember, the remote repository resides on my GitHub account, not yours. You will need my account credentials to push changes directly to this repository. We will learn how to push changes to the remote repository in a later section.
+
+As I add more lesson files to the project, it will go through new commits. You can make sure your repository is up to date with mine by using the `git pull` command. This will pull in new changes from my repository into yours, updating the files in your project directory.
+
+## Back to GitHub
+Let's go back to our repository on __GitHub__. If you do not have __Git__ installed on your system, the 'download as zip' option saves the project files in a zip folder for download.  
 
 Next, just before the list of files and folders and repos are displayed, details about the latest commits to the repository are displayed. You can tell from the profile picture displayed that I made the last commit on the repository, and the commit message is displayed beside my picture.
 
@@ -84,20 +110,7 @@ There's a README file whose content is displayed automaticaly below your reposit
 
 ![Repository Screenshot](./images/60-ReadMe.png)
 
-That's a lot we have learnt so far. To make contributions to repositories, you need to have a copy of the repository to work with. There are ways to do this.
-
-## Getting a copy of a remote repository
-You can get a copy of a repository in two ways  
-1. Clone the repository.
-2. Fork the repository.
-
-To clone a repository, _git bash_ into any folder on your system. For this example, I am using the "Documents" folder on my system.
-
-On the command line, type `git clone repolink`. Remember, you can get the repository link by going to the repository page. Click the _Clone/download_ button to reveal the link.
-
-![Repository Screenshot](./images/62-CloneDownload.png)
-
-
+## Forking a repository
 
 <!-- #
 The remote repository takes the most recent commit, and uses that to create the files on the server. 
