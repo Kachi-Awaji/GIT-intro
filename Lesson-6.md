@@ -15,7 +15,7 @@ In this lesson, we will be taking a tour of __GitHub__, looking at the features 
 >This lesson will be a long one - there is so much to learn. Take your time, and don't rush it. A little patience will go a long way.
 
 
-Sign in to GITHUBHOMEPAGE. You should see a screen with a dark menu bar at the top. On the left, just beside the GitHub logo is a search field you can use to find other __GitHub__ users, repositories, commits, etc. 
+Sign in to [__GitHub__](github.com)  . You should see a screen with a dark menu bar at the top. On the left, just beside the GitHub logo is a search field you can use to find other __GitHub__ users, repositories, commits, etc. 
 > Tip: You can hit forward-slash(/) on your keyboard to access the search field.
 
 Beside the search field are links to let you access pull requests, issues, and the marketplace. We will look at this later on. Clicking _Explore_ will let you view popular repositories on __GitHub__.
