@@ -6,16 +6,10 @@ In this lesson, we will be taking a tour of __GitHub__, looking at the features 
 
 ## Working with __GitHub__
 > ### __IMPORTANT__
-> The lesson notes for this series are hosted on my __GitHub__ profile. For this lesson, I have created a file called ROLLCALL.md. 
->
->The screenshots you will be seeing will be from _Git-Hub-Learn_, a __GitHub__ profile I created for this series. 
->
->It will, hopefully, mimic the screens while you make your contribution later. 
->
->This lesson will be a long one - there is so much to learn. Take your time, and don't rush it. A little patience will go a long way.
+> The lesson notes for this series are hosted on my __GitHub__ profile on a repo (_Git-Intro_).  
+For this lesson, I have created a file called ROLLCALL.md on this repository for you to make a contribution later on. 
 
-
-Sign in to [__GitHub__](github.com)  . You should see a screen with a dark menu bar at the top. On the left, just beside the GitHub logo is a search field you can use to find other __GitHub__ users, repositories, commits, etc. 
+Sign in to [__GitHub__](https://github.com)  . You should see a screen with a dark menu bar at the top. On the left, just beside the GitHub logo is a search field you can use to find other __GitHub__ users, repositories, commits, etc. 
 > Tip: You can hit forward-slash(/) on your keyboard to access the search field.
 
 Beside the search field are links to let you access pull requests, issues, and the marketplace. We will look at this later on. Clicking _Explore_ will let you view popular repositories on __GitHub__.
@@ -24,22 +18,37 @@ Beside the search field are links to let you access pull requests, issues, and t
 
 On the right side of the menu, the notification icon is similar to facebook's. You will be notified if another user follows you, sends you a pull request, etc. Beside is a drop-down menu that lets you do stuff like create new repositories, gists and much more.  You can access your profile settings by clicking your profile picture on the far-right.
 
-You will get more familiar with the menu as your contributions on __GitHub__ grows. Below the menu, the screen is broken into three parts. 
+You will get more familiar with the menu as your contributions on __GitHub__ grows. Below the menu, the screen is broken into three sections. 
 
 [Below the menu screenshot]
 	
 On the left side, a list of the repositories on your account is displayed. In the middle, you will see updates from other users or projects you might be following. On the right side are links to other repositories you might be interested in... think 'repo suggestions'... 
 
 ## Finding other users
-The Search find is how you find a host of things on __GitHub__. Enter "Kachi Awaji" to find me (😊) on __GitHub__. 
+The Search field is how you find a host of things on __GitHub__. Enter "Kachi Awaji" to find me 😊 on __GitHub__. 
 
 ![__Git__ Status](./images/55-SearchResult.png)  
 
 The search results are divided into various categories: repositories, code, commits, issues, marketplace, wikis, and users.
 
-You are looking for a user, so click on _Users_ at the bootom of the list.
+You are looking for a user, so click on _Users_ at the bottom of the list.
 
 ![__Git__ Status](./images/56-PickUser.png)  
+
+The first account is an account I created when learning __Git__. I don't use it much these days, but there are a few repositories on there you might find helpful.
+
+The second is my official account. Click the [__profile picture__](https://github.com/Kachi-Awaji) or [__user name__](https://github.com/Kachi-Awaji) to view my profile.
+
+![__Git__ Status](./images/52-MyGitHub.png)
+
+Links to popular repositories on my profile are shown on the right. 
+You can also click the _Repositories_ tab on the right will to view all repositories on my profile. 
+
+You will be making a contribution to the __Git-Intro__ repository. Click on the repo name to view the profile.
+
+
+
+
 
 
 In the next section, we are going to learn how to find another user on __GitHub__. You can view their profile to get to know about them, and also see a list of their public repositories. Private repositories are usually by professionals who may not want their projects' codes to be viewed publicly.
