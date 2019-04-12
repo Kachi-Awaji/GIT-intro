@@ -84,9 +84,9 @@ To clone a repository, _git bash_ into any folder on your system. For this examp
 
 On the command line, type `git clone repolink`.
 
-[clone screenshot]
+![Repository Screenshot](./images/65-GitClone.png)
 
-If the command is successful, you should have a new folder in your working directory called "GIT-intro". Type "ls" to confirm. 
+If the command is successful, you should have a new folder in your working directory called "GIT-intro". Type "ls" to confirm. If you want to change the name of the working directory, use `git clone repolink yourPreferredFolderName`.
 
 The `git clone` command does three things:
 - creates a folder(this folder is same as the repository's name by default)
@@ -111,12 +111,33 @@ There's a README file whose content is displayed automaticaly below your reposit
 ![Repository Screenshot](./images/60-ReadMe.png)
 
 ## Forking a repository
+If you want to be able to upload your changes to a public repository on a different account, you would have to 
+- fork the repository
+- make your changes
+- make a pull request
+
+Forking a repository makes a copy of that repository on your __GitHub__ account. You can work directly on the files in __GitHub__, then make a pull request once you are done. 
+
+If you are not comfortable working in __GitHub__, you can make a clone of the _repository_ (the one hosted on your account), make your changes, push the changes back to the your forked version, and make a pull request from __GitHub__. I will be teaching only the first method - you can try out the second as an exercise.
+
+The rollcall.md file on the Git-Intro folder will host names and messages of people who have gone through this course. For now, it's a bit empty. Let's work on that.
+
+![Repository Screenshot](./images/66-IwasHere.png)
+
+First, fork the repository. Go to the [repository's page](https://github.com/Kachi-Awaji/GIT-intro) and click on the _Fork_ button. 
+
+![Repository Screenshot](./images/67-Forking.png)
+This will make an exact replica of the repository on your account. You are now ready to add your name to roll call.
+
+![Repository Screenshot](./images/68-ForkedRepo.png)
+
+
 
 <!-- #
 The remote repository takes the most recent commit, and uses that to create the files on the server. 
 
 
-When you created your new repository, you initialized it with a README file. README files are a great place to describe your project in more detail, or add some documentation such as how to install or use your project. The contents of your README file are automatically shown on the front page of your repository.
+111When you created your new repository, you initialized it with a README file. README files are a great place to describe your project in more detail, or add some documentation such as how to install or use your project. The contents of your README file are automatically shown on the front page of your repository.
 
 Let's commit a change to the README file.
 
