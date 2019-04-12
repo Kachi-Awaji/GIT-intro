@@ -1,5 +1,23 @@
 # Working with remote repositories - 2
 
+Last lesson, you created an account on __GitHub__ and pushed a commit to your remote repository.  You are now a proud owner of a __GitHub__ account, giving you access to thousands of projects being built online. 
+
+In this lesson, we are taking a tour of __GitHub__. __GitHub__ is a social coding site that offers a lot of features for sharing projects and collaboration.
+
+## Working with __GitHub__
+Sign in to GITHUBHOMEPAGE. You should see a screen with a dark menu bar at the top. 
+
+This menu contains (from left-to-right)  
+1. 
+2. 
+3. 
+4.   
+	
+
+Below the menu, the screen is divided into three sections.
+
+
+
 ## Downloading Repos from GitHub
 You can create a repository in one of two ways  
 1. Create one locally using `git init`.

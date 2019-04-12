@@ -22,7 +22,7 @@ Goodluck.
 
  **Lesson 5** - [Working with remote repositories](https://github.com/Kachi-Awaji/GIT-intro/blob/master/Lesson-5.md)
 
- **Lesson 6** - Working with remote repositories -2 
+ **Lesson 6** - Working with remote repositories - 2 
 
  **Lesson 7** - Coming soon 
 
