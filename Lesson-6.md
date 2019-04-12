@@ -26,7 +26,7 @@ You will get more familiar with the menu as your contributions on __GitHub__ gro
 
 ![__Git__ Status](./images/61-BelowMenu.png) 
 
-A list of the repositories on your account is displayed on the left side. In the middle, you will see updates from other users or projects you might be following. On the right side are links to other repositories you might be interested in... think 'repo suggestions'... 
+A list of the repositories on your account is displayed on the left side. In the middle, you will see updates from other users or projects you might be following. It will also display what you do on __GitHub__. On the right side are links to other repositories you might be interested in... think 'repo suggestions'... 
 
 ## Finding other users
 The Search field is how you find a host of things on __GitHub__. Enter "Kachi Awaji" to find me 😊 on __GitHub__. 
@@ -66,7 +66,9 @@ The _Code_ tab is open by default and displays the contents of the repository be
 
 There's a brief description of the repository, and below it a few stats (number of commits on the repository, branches, releases, and contributors)
 
-Below that are buttons that let you select a branch to work on, make a new pull request. On the other side, three buttons let you create a new file, upload a file to the repository, or find a file on the repository.  The green button at the end lets you clone or download the repository.
+Below that are buttons that are two buttons. The one on the left lets you select a branch to work on. The other is for making pull requests. You will learn about these soon.
+
+On the other side are three buttons that let you create a new file, upload a file to the repository, or find a file on the repository.  The green button at the end lets you clone or download the repository.
 
 You _clone_ a repository when you want to make a copy of it to your system. The 'download as zip' option saves the project files in a zip folder for download. This might be helpful for those who do not have __Git__ installed on their system. 
 
@@ -82,31 +84,18 @@ There's a README file whose content is displayed automaticaly below your reposit
 
 ![Repository Screenshot](./images/60-ReadMe.png)
 
+That's a lot we have learnt so far. To make contributions to repositories, you need to have a copy of the repository to work with. There are ways to do this.
 
-The Rollcall file is the file you will be working with 
+## Getting a copy of a remote repository
+You can get a copy of a repository in two ways  
+1. Clone the repository.
+2. Fork the repository.
 
+To clone a repository, _git bash_ into any folder on your system. For this example, I am using the "Documents" folder on my system.
 
+On the command line, type `git clone repolink`. Remember, you can get the repository link by going to the repository page. Click the _Clone/download_ button to reveal the link.
 
-
-
-
-In the next section, we are going to learn how to find another user on __GitHub__. You can view their profile to get to know about them, and also see a list of their public repositories. Private repositories are usually by professionals who may not want their projects' codes to be viewed publicly.
-
-
-
-You will learn how to make copies of their repositories using the "git clone" command. You  
-
-Below the menu, the screen is divided into three sections.
-
-
-
-## Downloading Repos from GitHub
-You can create a repository in one of two ways  
-1. Create one locally using `git init`.
-2. Get one online (remote repository).
-
-You are already familiar with the first step. Now, let's get a remote repository from "Git-Hub-learn"'s profile on __GitHub__.
-
+![Repository Screenshot](./images/62-CloneDownload.png)
 
 
 
