@@ -46,8 +46,9 @@ You will be making a contribution to the __Git-Intro__ repository. Click on the 
 
 ![Repository Screenshot](./images/57-GitIntro.png)
 
-At the top, the name of the user(Kachi-Awaji) and the repo name(Git-Intro) is shown to identify the repository. You can always look if you get confused when going through __GitHub__.
+At the top, the name of the user(Kachi-Awaji) and the repo name(Git-Intro) is shown to identify the repository. You can always take a quick look at this if you get lost when going through __GitHub__ repositories.
 
+![Repository Screenshot](./images/58-GitIntroTop.png)
 On the right are three buttons that let you interact with the repository:
 - Click on "Watch" if you want to be notified of changes to this repository. 
 - If you really love a repository, click _star_ to make it easy to find it again later. You can see all the repositories you have starred by going to your stars page. (find your star page by going to your profile and clicking on the _stars_ tab on the right).
@@ -55,7 +56,9 @@ On the right are three buttons that let you interact with the repository:
 
 Just below are six tabs : _Code_, _Issues_, _Pull request_, _Projects_, _Wiki_ and _Settings_. 
 
-58-GitIntroTop.png
+The _Code_ tab is open by default and displays the contents of the repository below. 
+
+![Repository Screenshot](./images/59-RepositoryContent.png)
 
 
 
