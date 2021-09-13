@@ -5,4 +5,5 @@ type your name, then put two spaces after it.
 then type your message.  -->
 
 	chidex
+	Thanks for this Git Tutorial. I really enjoyed it !
 	
